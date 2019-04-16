@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.datatools.enablement.mysql.ui;singlet
+ on:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.2.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.datatools
+ .connectivity;bundle-version="[1.0.1,2.0.0)",org.eclipse.datatools.co
+ nnectivity.ui;bundle-version="[1.0.1,2.0.0)",org.eclipse.datatools.en
+ ablement.mysql;bundle-version="[1.0.0,2.0.0)"
+Bundle-Activator: org.eclipse.datatools.enablement.mysql.ui.Activator
+Export-Package: org.eclipse.datatools.enablement.mysql.ui,org.eclipse.
+ datatools.enablement.mysql.internal.ui.connection,org.eclipse.datatoo
+ ls.enablement.mysql.internal.ui.connection.drivers
+Bundle-Version: 1.0.0.v201109022331
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/datatools/enablement/mysql/internal/ui/connection/Ne
+ wMySQLConnectionProfileWizard.class
+SHA1-Digest: EfqDzallj9JZLBKp/Tu0j/cxUEE=
+
+Name: org/eclipse/datatools/enablement/mysql/internal/ui/connection/My
+ SQLProfileDetailsWizardPage.class
+SHA1-Digest: yQEIIHr6ioHIZCbWoMSA74kYvD0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/datatools/enablement/mysql/internal/ui/connection/My
+ SQLDBProfilePropertyPage.class
+SHA1-Digest: UrnLyHiX7dspU5o3E6xJdRb1hYo=
+
+Name: icons/new_db_element.gif
+SHA1-Digest: LEE9YAfo+Etg3mCwlVdzbXBBQPo=
+
+Name: org/eclipse/datatools/enablement/mysql/internal/ui/connection/dr
+ ivers/MySQLOtherDriverUIContributor.class
+SHA1-Digest: j9J+B1DUJu/qx0MNZnzjePsTDzI=
+
+Name: plugin.xml
+SHA1-Digest: ObT0egGvosX4qD9S7U7tcj0ir/s=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: plugin.properties
+SHA1-Digest: JINXXBIMQe8Lr/QKWn4MjRx5XFQ=
+
+Name: org/eclipse/datatools/enablement/mysql/ui/Activator.class
+SHA1-Digest: 0d1rfpvyLoEfAhOiy+UWfx8K4Ks=
+

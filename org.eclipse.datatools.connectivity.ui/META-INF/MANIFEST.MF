@@ -1,0 +1,1448 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.datatools.connectivity.ui; singleton:
+ =true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",org.eclip
+ se.ui;bundle-version="[3.4.0,4.0.0)",org.eclipse.ui.views;bundle-vers
+ ion="[3.2.0,4.0.0)",org.eclipse.datatools.connectivity;bundle-version
+ ="[1.2.4,1.5.0)",org.eclipse.ui.navigator;bundle-version="[3.2.0,4.0.
+ 0)",org.eclipse.core.expressions;bundle-version="[3.2.0,4.0.0)",org.e
+ clipse.ltk.core.refactoring;bundle-version="[3.2.0,4.0.0)",org.eclips
+ e.datatools.help;bundle-version="[1.0.0,2.0.0)",org.eclipse.help;bund
+ le-version="[3.2.0,4.0.0)";visibility:=reexport,org.eclipse.datatools
+ .connectivity.sqm.core;bundle-version="[1.0.1,2.0.0)",org.eclipse.dat
+ atools.modelbase.sql;bundle-version="[1.0.0,2.0.0)"
+Bundle-Activator: org.eclipse.datatools.connectivity.internal.ui.Conne
+ ctivityUIPlugin
+Export-Package: org.eclipse.datatools.connectivity.internal.ui,org.ecl
+ ipse.datatools.connectivity.internal.ui.dialogs,org.eclipse.datatools
+ .connectivity.internal.ui.drivers,org.eclipse.datatools.connectivity.
+ internal.ui.preferences,org.eclipse.datatools.connectivity.internal.u
+ i.refactoring,org.eclipse.datatools.connectivity.internal.ui.wizards,
+ org.eclipse.datatools.connectivity.ui,org.eclipse.datatools.connectiv
+ ity.ui.actions,org.eclipse.datatools.connectivity.ui.navigator,org.ec
+ lipse.datatools.connectivity.ui.navigator.actions,org.eclipse.datatoo
+ ls.connectivity.ui.status,org.eclipse.datatools.connectivity.ui.wizar
+ ds
+Bundle-Version: 1.2.4.v201212070447
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Plugin.ProviderName
+Bundle-Name: %Plugin.Name
+Import-Package: com.ibm.icu.text;version="3.6.1",com.ibm.icu.util;vers
+ ion="3.6.1"
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$7.class
+SHA1-Digest: XV64S6w+hswxe99IZZ1SUi0mcZ0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$3.class
+SHA1-Digest: spm1upQswdpD8a3eK9ZA6eJZ5QI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$2.class
+SHA1-Digest: m5RJ4Cc4/zouvnbvUmGzE+8t+vk=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/IDriverUIContribut
+ orInformation.class
+SHA1-Digest: bYM+bkz+jVI0wXQKVLKhsv+wmLs=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$4.class
+SHA1-Digest: T+KWrMZeyJghNfjmqsN4D0V+gu4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileDeleteProcessor.class
+SHA1-Digest: IPR9ggLSdnOWJxngY5ZdIZuzz58=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ExpandAl
+ lActionDelegate$OuterJob.class
+SHA1-Digest: B66YQ/D4DwrOfjTaKM2WiQsxGDY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/BaseWizar
+ dPage.class
+SHA1-Digest: PYeo6CROB1B8xAVNRjR52XPpsx8=
+
+Name: icons/new_repository_action.gif
+SHA1-Digest: ncX33Ta3o8K4toUqxRiN5SlflSY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$E
+ ditButtonSelectionChangedListener.class
+SHA1-Digest: XQUYPwwrPiemKG5cZSuEISBE4P4=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/AddProfileViewActi
+ on$InternalProfileListener.class
+SHA1-Digest: akFYQtUaJFG41cXTK0O2VEmylrI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileRenameProcessor.class
+SHA1-Digest: ekxzLtUyBlYO7xRb7T2PwvYEbqY=
+
+Name: org/eclipse/datatools/connectivity/ui/DriverClassBrowsePropertyD
+ escriptor.class
+SHA1-Digest: f3+cc08tlJ+hHB5laLq8pzrODtQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog$3.class
+SHA1-Digest: bXTB3j1V9WFZyNtmZdUGHihfY9A=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog.class
+SHA1-Digest: Sg2UGxnQygCtgu3JrtPE9KE12HQ=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizardPage$1.class
+SHA1-Digest: fwQhMnE6aQVwmyqlyyO0bc/9t7c=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DropListViewer.cl
+ ass
+SHA1-Digest: 0MhdvLJPDZcEDLUyfe2e8DDCCTI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/WizardCat
+ egoryProvider.class
+SHA1-Digest: NJjOi7zM0AHFT4gDcgiiBMyLmEo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/BaseWizar
+ d.class
+SHA1-Digest: ZVx7FkiDmH0VyXH91cNao3f8iFo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$TextSorter.class
+SHA1-Digest: AaPkWQlgcuTDGvEceAsXYCSorJY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/CategoryR
+ oot.class
+SHA1-Digest: yWcjGtzdr6sU/oDyrgLhAjTjWrc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileMoveProcessor.class
+SHA1-Digest: rFSu3E0ObBzSNmfQGiFFo10vTe0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/IHelpConstants.cl
+ ass
+SHA1-Digest: ee3G3BLPqJVQ0QXKHrUHWzoaYWk=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ExportProfileViewA
+ ction$1.class
+SHA1-Digest: 6McWDiXMdHp5LE74OFSbRfXeM4Y=
+
+Name: icons/full/clcl16/local_repository.gif
+SHA1-Digest: Zoo12MluNlhSvlpbXtJ9fWH7YNE=
+
+Name: icons/full/clcl16/clear_co.gif
+SHA1-Digest: HvS35PEmGunIFT6uMbNvDE5gWqU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileBaseDeleteChange.class
+SHA1-Digest: ykZwYEreDt0S1Jh7EgGNvr1ZRKE=
+
+Name: icons/add_obj2.gif
+SHA1-Digest: x6wovrb4mr2fjF3X8aUnPJ8N9Wc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProviderExtension.class
+SHA1-Digest: Ljmp6jAUA0xAf//5G24D2wT60Fo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ImportPro
+ filesDialog$3.class
+SHA1-Digest: LDJRT2aS0ka3e/Xyg+q4PXcdkU0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$3.class
+SHA1-Digest: +ZtC5ac5rga7p82OFBmiEwvwByI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$6.class
+SHA1-Digest: BjfC0a/dDWNroQ5csn5poW8kdrQ=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ViewPropertyAction
+ $1.class
+SHA1-Digest: fTJf3Y+vUKkWTLf5ujQ5B68m+gc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProvider.class
+SHA1-Digest: TtjfKVYSwhI6VoAZC4Wan+mph7c=
+
+Name: org/eclipse/datatools/connectivity/ui/PasswordTextPropertyDescri
+ ptor$PasswordLabelProvider.class
+SHA1-Digest: IE2qqUuMEwymPDM/tttjJRQ8OpE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$4
+ .class
+SHA1-Digest: v2+cK32ksHO6+jkn7Gju4S3MKnE=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider.class
+SHA1-Digest: naz9jOWc78t9bxvUv7apCPwMda0=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/IActionC
+ ategoryDefs.class
+SHA1-Digest: /1GJ4bGOaqMzCd2Fl5DD3hqrudo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$ProfileSorter.class
+SHA1-Digest: hy4vRe29uulAPl887kY8xculonY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/SharedImages.clas
+ s
+SHA1-Digest: F+hDKVXz2VgvBLcrsIawXL0lDuc=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileD
+ etailsPage$3.class
+SHA1-Digest: hKOANbQPRcKrSvkJ8Hs21R20T/0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProvider$1.class
+SHA1-Digest: zhSndrVaWWhwE8qKNgcjrOBGtUw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverLis
+ tContentProvider.class
+SHA1-Digest: dJQjd2UZsXINvh3f+G/JT08q6wU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ProfileImageDescr
+ iptor.class
+SHA1-Digest: e2T5+fNkaVSFJmm8z2BVoVXFsi4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/IWizardAc
+ tion.class
+SHA1-Digest: IaQYRjobCcO82JeHlScGgVWu6K0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$4.class
+SHA1-Digest: NDdpis5NhHm9W5sTteLPP0/c9KQ=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$1.class
+SHA1-Digest: 7QFf2mBODzLzMCY1PciZFipB1ok=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ISummaryD
+ ataSource.class
+SHA1-Digest: CFDivHt2zx7JpLR7dLs+xQe+bmE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ProfileWi
+ zardProvider$1.class
+SHA1-Digest: 5pYYxpjOVSzXm4bexGSUcNYTj00=
+
+Name: schema/addConnectListener.exsd
+SHA1-Digest: zhUIQy3tcDgXdttDePbMXidEFGM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$8.class
+SHA1-Digest: 8mhmgv8JCn7z9SZotVxsCLplkyM=
+
+Name: org/eclipse/datatools/connectivity/ui/PasswordTextPropertyDescri
+ ptor.class
+SHA1-Digest: MfhPUt5gzmMaEukf+WXU1c2a4WQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverTreeSorter.
+ class
+SHA1-Digest: BT4xkhhylyp58ZQR3cvrEUb3fl0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/DriverUIC
+ ontributorRegistry.class
+SHA1-Digest: 0Gw3REqVDWwcsRzov6IAcFs6EiE=
+
+Name: org/eclipse/datatools/connectivity/ui/status/StatusHandlerServic
+ e.class
+SHA1-Digest: aCeznIo/mDC91nyXR/PC0+snjqc=
+
+Name: icons/full/cview16/console_view.gif
+SHA1-Digest: ZKcvMVbfsxZmyOoDdgQShSbyHhA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/TableSort
+ SelectionListener.class
+SHA1-Digest: D9J9iZMtwhTJmE2dJsLMM4m7Brw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$5.class
+SHA1-Digest: sy5fVesjxDiJYmsry+N7LfJ0SDw=
+
+Name: icons/change_obj.gif
+SHA1-Digest: R8HcObKb0v2GdTsmx2C6Lk5iM7U=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/LinkedWiz
+ ardBase.class
+SHA1-Digest: ssWLb7upML/ddIBGc+ogfRoe6Q4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntExtension.class
+SHA1-Digest: tkfVi8PGmr46Ik+iHOqGEeMOlX0=
+
+Name: icons/full/clcl16/extensions.gif
+SHA1-Digest: Stz3OPkQtMPuCq2vHFlFNowZJ0M=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizard$IFinishTask.class
+SHA1-Digest: +66fePz0pK8CzLwUTEepJHba1oU=
+
+Name: org/eclipse/datatools/connectivity/ui/status/DatatoolsStatusList
+ ener.class
+SHA1-Digest: JxEAaGRbgUYWHDJl/tihKTdp8Hw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ImportPro
+ filesDialog.class
+SHA1-Digest: cb1++O4VLVW44Z3x1rYnR7Ti3S0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog.class
+SHA1-Digest: 9BeI6wGYyGLGTiE+KIK9/2odZ5s=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizard.class
+SHA1-Digest: GIYJWXd2NVFi3Qm4tDixr9p3k5s=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileS
+ ummaryPage$2.class
+SHA1-Digest: Mobq/7VcsTQf6/0dLcbW5jnV+Dg=
+
+Name: icons/connection1_newwiz.gif
+SHA1-Digest: nSSbr6jBBKB4cUS1ycq+lJ+cAcg=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/OptionalProperties
+ Pane.class
+SHA1-Digest: sJdaRXcfEyxQ4e8qTeo6RKTNCp8=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ExpandAction.class
+SHA1-Digest: oqNPywiQJt76aabR6EE6DXlAtC0=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/DisconnectAction.c
+ lass
+SHA1-Digest: ZkOrPVeZtANS+hJ9bhK5mWVFvNk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage.class
+SHA1-Digest: cGvisXm3l5EVWzhRbdHok/K4kAQ=
+
+Name: org/eclipse/datatools/connectivity/ui/ContentExtensionBase$2.cla
+ ss
+SHA1-Digest: g0px7UCxSRU+vGHsl3O033b3NIo=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/DuplicateProfileAc
+ tion.class
+SHA1-Digest: snYATIaIyrFh+wXmBCycqvBKgO8=
+
+Name: icons/full/clcl16/add_server.gif
+SHA1-Digest: bjppvH0dXDQpyW/y1Y2Svx4pDMI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ILinkedSu
+ mmary.class
+SHA1-Digest: GBPoMF8UegeINzf2403g/q4ikTM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$WizardFilter.class
+SHA1-Digest: ivAiTfluKTYLRxaN/cA2klKiOvM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$3.class
+SHA1-Digest: Tm00oIP5sJmfgt6RTt0ChxsD7V8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectivityUIPlu
+ gin$2.class
+SHA1-Digest: C6r8ASNsJ66dZmCsqACW7cUdP/k=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/RepositoriesDropL
+ ist$RepositoriesLabelProvider.class
+SHA1-Digest: /c9M3rzCWXtSZGJVpikZUhufLW8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$4.class
+SHA1-Digest: 5l3nsA9r7fw3oCqAuRoyDSD+Kmw=
+
+Name: org/eclipse/datatools/connectivity/ui/ManagedContentExtensionBas
+ e.class
+SHA1-Digest: 1EaMuRug5MrCittDgyunlkH/y8w=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/PropertiesLabelPr
+ ovider.class
+SHA1-Digest: 24Cv0uKE5Tzx0a5R+2oalJ1WYFg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$8.class
+SHA1-Digest: 7y4yW9CbyqH4MRV4OzLpRFkmEWY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$Sorter.class
+SHA1-Digest: 9824rTBsLfSFXWVxQx0M+CT9ny8=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ProfileDetailsProp
+ ertyPage$1.class
+SHA1-Digest: WtaU9VVOscqWaA5RSwRxU6cNUX0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$1
+ .class
+SHA1-Digest: jOlND8sNBy2tWisieHMHmdsz2Xc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$2.class
+SHA1-Digest: Y4YbDwpE2BLqA/+iXev3q/wcUrg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectionProfile
+ ActionFilter.class
+SHA1-Digest: wogSHlYLpwtRjjx8vux6tG7OYtE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$1.class
+SHA1-Digest: UHLx0inEoUqMevJ2Dqwai5D492s=
+
+Name: icons/full/clcl16/export.gif
+SHA1-Digest: k5cSNprokVwZDdoOByd+ROH0iQM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverTableFilter
+ .class
+SHA1-Digest: I5Fgz8Bc6qCA4ZAoKNymsugAg0Q=
+
+Name: icons/full/obj16/check_obj.gif
+SHA1-Digest: BBWo8XxknlpQUQgz7wDs0k2s/ik=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$TableLabelProvider.class
+SHA1-Digest: hHSSmc8pmH9f4GzLkq7t0wglyos=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardN
+ ode.class
+SHA1-Digest: UIRpqFz4pTxaPnL26u5FUIPlxsY=
+
+Name: icons/full/obj16/default_server_stopped_obj.gif
+SHA1-Digest: lU/mNNTMvVht/gRfdS5NsNeTYqY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$1.class
+SHA1-Digest: MepqHRRLiey6jKcrxFq5xkkosn8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPPropety
+ Page.class
+SHA1-Digest: J+NzVKgTnpsll+q6WAeInMGnWaE=
+
+Name: icons/full/dlcl16/collapseall.gif
+SHA1-Digest: EN6RuFqPlyvDFFYtWeaHigGxVBI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ISummary.
+ class
+SHA1-Digest: S6yvesO6svSc9a/8r5NuhApUFTI=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/IProfileWizardProv
+ ider.class
+SHA1-Digest: MBSQxz9aymAuYi88MU2g3N376XE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st.class
+SHA1-Digest: qQ94CkWTGRpPDM5WFM6ZiOizm+k=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$9.class
+SHA1-Digest: mXP436lj1hqnczBVI/qix3abJ3k=
+
+Name: org/eclipse/datatools/connectivity/ui/status/DatatoolsStatus.cla
+ ss
+SHA1-Digest: FscdIcNCkOKBNYr8wWeJlTL2IZY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileRenameChange.class
+SHA1-Digest: 9EoAZCl3LewrrGGMER+ViN5gQCs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$5.class
+SHA1-Digest: rQB2XlwBaGO0o4HN/TI1aKyKmNo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$4.class
+SHA1-Digest: dDAN5uPRUvvieP4xhqWjfJbMP+k=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$6.class
+SHA1-Digest: TPK1wTn4k0mQNVZIZgw9m0kBqLI=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/RenameAction$NameV
+ alidator.class
+SHA1-Digest: amHjnXCI89ylvbj8cdVV/NGrH7s=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/DriverUIC
+ ontributorComposite.class
+SHA1-Digest: W1uRejW3qeZ2Fj2iddy8iQi/MTw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/RepositoriesDropL
+ ist$RepositoriesFilter.class
+SHA1-Digest: ieTuHIbmS1QMYH7W2IOO5yVZJpk=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ConnectActionStatu
+ sListener.class
+SHA1-Digest: rp/XbelPGHaNV1d+JQJpmhkpOFw=
+
+Name: org/eclipse/datatools/connectivity/ui/ContentExtensionFactoryBas
+ e.class
+SHA1-Digest: SDUFvMnf6GopdeImBk2etzlU0yE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$2.class
+SHA1-Digest: VlAUrBXF+I50IiR7HZJnPP/F0TI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectionProfile
+ ManagerUI.class
+SHA1-Digest: J2wEEEt6v1uC+kxHT0hiWxxgxQY=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ImportProfileViewA
+ ction$2.class
+SHA1-Digest: yUU+R2BNmRuisHZS9owqMZAvcLg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileCreateProcessor.class
+SHA1-Digest: TOZDFZxDHuSOgqD3bikwjI/x5vU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/WorkbenchWindowPe
+ rspectiveActionFilter.class
+SHA1-Digest: VY09Id4MX4dm21Tr1QDwrE2TsvI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$2$1$1$1.class
+SHA1-Digest: dFKxLLKQI3jAlVunTD1udjweeZQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog$5.class
+SHA1-Digest: v5nr3rY5yFK7S7eZ9boR7v2GLiI=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizardPage$3.class
+SHA1-Digest: jSaAQqpphtcjgUHAC4Vv1Ov1K9c=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ShowCate
+ goryAction.class
+SHA1-Digest: vdrIQVDRLACZKshu66A+RTEWVVA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/IntroWiza
+ rdPage.class
+SHA1-Digest: O1qhmFFNbSTZvKMi4D2sZXjyz40=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/Collapse
+ AllActionDelegate.class
+SHA1-Digest: av4ugb8DvUdBGZYJvpaTd9XbJsw=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ProfilePropertyPag
+ e.class
+SHA1-Digest: Va/XZDYSED67giJOOktdwEiRegg=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ExpandAl
+ lActionDelegate$2.class
+SHA1-Digest: Ab0VoloG8yIknx3gfobpf4Gp6gc=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/WorkOfflineActionP
+ rovider.class
+SHA1-Digest: nEr0xDjtSFS+4hcmwDaBrX68fAI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$ListContentProvider.class
+SHA1-Digest: RAUAjX4NqdZeHcobc099q/480rw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverPropertySou
+ rceProvider.class
+SHA1-Digest: vh83bwYLJwr9oYNSH7Ml9BnDJY0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$1.class
+SHA1-Digest: pw4Ob7jhHYUD8XBp9go3DuZ/gpo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$EditAction.class
+SHA1-Digest: a7Vx504TWjumCNGh4+rHrS6Wk+s=
+
+Name: icons/full/clcl16/remove_server.gif
+SHA1-Digest: P4BiFUa/G2S/t3p+sC/Wv3a0PdI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$C
+ omboSelectionListener.class
+SHA1-Digest: bwAUL9rNF1MHeHpp2ZxfXrCp/xI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$5.class
+SHA1-Digest: XHRSZmiNJzom2y0jPx8m2myRqag=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log.class
+SHA1-Digest: r+wG2EHzOL8z+ec3KUy7WWahL1M=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/RepositoriesDropL
+ ist.class
+SHA1-Digest: zKAwz6eScju7eukMyxKum6lg1GQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$T
+ emplateDescriptorComparator.class
+SHA1-Digest: aiGL3kDC917d8idriU0fL7JgXas=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/PingAction.class
+SHA1-Digest: Id3Ao8pmF7caasnKqyMuDLTGtS0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$1$1.class
+SHA1-Digest: O98U/Fhbf95QgG0Pt+q9ZZAu88c=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProvider$3.class
+SHA1-Digest: 12xqUgboPqW/a8W0IgAIsrdDWMs=
+
+Name: icons/full/obj16/server_stopped_obj.gif
+SHA1-Digest: lU/mNNTMvVht/gRfdS5NsNeTYqY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$TableContentProvider.class
+SHA1-Digest: MqPO/qSYlagJ2c+csuvs9AQ1KCs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$6.class
+SHA1-Digest: q7l3k8BdIIo8Qtw5xSXvgX969NU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$2.class
+SHA1-Digest: SrD9y9awA3Mz3vq1i9U/wSp/hig=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ImportProfileViewA
+ ction.class
+SHA1-Digest: UvEfCrgxLPAxRgydBCAHR1jGaCY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$1.class
+SHA1-Digest: e45YrGvpo6p18kmf9dOJhkq/Onw=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$3.class
+SHA1-Digest: bNhFKHILcHqEKjaweQ0p4+dKZi4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPPropety
+ Page$1.class
+SHA1-Digest: dLbJtGQ9LvDfU0vL5dIy3VFdHNA=
+
+Name: icons/jdbc_16.gif
+SHA1-Digest: N16kaLk8rTSVM807t/TyQUGy/6M=
+
+Name: icons/driver_obj.gif
+SHA1-Digest: t1srgFpjKSnZcL8X0jy1G00P6rI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/CategoryD
+ escriptorNameComparator.class
+SHA1-Digest: /mAm9veAAt2yefRqLch432qf1qg=
+
+Name: plugin.properties
+SHA1-Digest: 7WqSWv4G1O4BckJeTH3Rg5Wf3eg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/LocalRepositoryNo
+ de.class
+SHA1-Digest: J0SxxHMTd6LQEEIhvsH+PGKuFhU=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ExtensibleProfileD
+ etailsWizardPage.class
+SHA1-Digest: pVmuhwKoFwx2zM5qytdOaEN4x6s=
+
+Name: schema/connectionProfileImage.exsd
+SHA1-Digest: VTfca61pzBw64r447vkgKTAPUAM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog$2.class
+SHA1-Digest: NdC1YZaKqqhwKYoNk5R6xuI+Lx4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverTreeLabelPr
+ ovider.class
+SHA1-Digest: osIl62DUPeASEh+zf5b0OO+rqXo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/Exception
+ Handler.class
+SHA1-Digest: +XuoAMm+FngvJqINGxS7CcrJJSE=
+
+Name: schema/driverPropertyEditor.exsd
+SHA1-Digest: FH9udfJD52I6e5TMnSbmqS7SCJQ=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/RefreshViewAction.
+ class
+SHA1-Digest: xUq0BA9hXV5elFpk85l/BrCpbw4=
+
+Name: icons/view_menu.gif
+SHA1-Digest: 4KlJS1402o4P7wHl7rpNnkJjvPc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$ListLabelProvider.class
+SHA1-Digest: Phg2si7VodUC0R01WBnUDfs8HbQ=
+
+Name: plugin.xml
+SHA1-Digest: vxEmjoeyyuyOr3ygiGJm8nCNv4U=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ViewPropertyAction
+ .class
+SHA1-Digest: 67sBzvs0tohdjoLJzkO90PhpmHw=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ProfileA
+ ctionsActionProvider.class
+SHA1-Digest: hcmX77GWb2gQPoKRjqrz/OybDjQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CCOverLayIconUtil
+ ity$InternalOverlayIcon.class
+SHA1-Digest: LovZG+yTbPFfJU8rNiVDitFYZpo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ImportPro
+ filesDialog$2.class
+SHA1-Digest: yagFD9yuspacVvNwEYwkZE20BLs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$2.class
+SHA1-Digest: kNHNXDfMUfVnyYSK8nxa1xXKCuU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog.class
+SHA1-Digest: 8LpwbVUx9RaFF9SNYAbmNKJPu9E=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$5.class
+SHA1-Digest: BAAvgNlMz8KMq9MsJJwZ06vpeDk=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizard$1.class
+SHA1-Digest: FYtjfDSTj4z/5ySejog+/bmwzGY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$TableLabelProvider.class
+SHA1-Digest: uOVilgSJ3drVfoC05wlNshdThjc=
+
+Name: org/eclipse/datatools/connectivity/ui/Messages.class
+SHA1-Digest: Fs0BKfr41N00CXv02zOYbiNeCIY=
+
+Name: org/eclipse/datatools/connectivity/ui/ProfileImageRegistry.class
+SHA1-Digest: 8Zufi5EI6N/Gw4cW35FXgh6z0oo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/RepositoriesDropL
+ ist$RepositoriesContentProvider.class
+SHA1-Digest: Pee2LUNf9GEoquDyBZRQio4fRck=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/messa
+ ges.properties
+SHA1-Digest: 7Ketzmm9A+6VzvQSw1mdMOFQpo8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$3
+ .class
+SHA1-Digest: jbNUiXl/thHgX+Df4jRak9YTxZk=
+
+Name: org/eclipse/datatools/connectivity/ui/DataPreferencePage.class
+SHA1-Digest: 4XSQVFK1A52EH2EQoY4t384vaSk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences.class
+SHA1-Digest: MhJDqNVsbuUnA0X9kDjJ6ou7qaQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/DriverUIC
+ ontributorRegistry$BlankDriverUIContributor.class
+SHA1-Digest: cXIXtlFwAWKwj8mTyw9g7nZbE90=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverLis
+ tLabelProvider.class
+SHA1-Digest: TgZvy5vaoBKdWhCUE7bd8ttgdE8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$3.class
+SHA1-Digest: QrvOlsL00p7ijDVXGRkKo5DTQZA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage.class
+SHA1-Digest: Pbl4ChcdGMlSKMVP+QgeP3ppjAs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ProfileWi
+ zardProvider.class
+SHA1-Digest: eG5F2zA+d93d90DT03wQBtK+69A=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileD
+ etailsPage$2.class
+SHA1-Digest: crLbjaGuPp0qQdesbqBFqO9M/PI=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ExtensibleProfileD
+ etailsPropertyPage.class
+SHA1-Digest: JidIawlC7sxIwXoA2s5KFUcZ4m4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$3.class
+SHA1-Digest: kNyaekc9Bykl5k13ijGAtZeRi2k=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Messa
+ ges.class
+SHA1-Digest: nBWTo7ywMdDwEfnZ0I5gFtJr6nk=
+
+Name: schema/driverUIContributor.exsd
+SHA1-Digest: f1tPyAxERX5Fhzgx1GpWocsemSE=
+
+Name: icons/full/obj16/components_obj.gif
+SHA1-Digest: IodJja5Gz00IAnIztpiCf4O4tUI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/WizardSel
+ ectionPage.class
+SHA1-Digest: AbFTb+gt76gsrLj3SFEwM+owLO8=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/RenameAction.class
+SHA1-Digest: ufm81VVoC4D3/uE4iMZng9NUWFI=
+
+Name: org/eclipse/datatools/connectivity/ui/IContentExtension.class
+SHA1-Digest: MvyBPDDE+7PkyhUqkULQQbDlRyw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$7.class
+SHA1-Digest: eqWuoIeVn3fS2dLnf23g6qQfqUg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$6.class
+SHA1-Digest: UqF8+w3jEv+jokKRrk7/vkVeln8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$N
+ ewGenericSelectionChangedListener.class
+SHA1-Digest: pVBca9Y2cAkzu9U9Iiovd/HJ/Tc=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ExtensibleProfileD
+ etailsPropertyPage$1.class
+SHA1-Digest: ikvfP2uRkJ9H21pRqy76EeNMVOs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryLabel
+ ProviderExtension.class
+SHA1-Digest: dFpZvuq/yUvjY53WMvP6hsAIRaM=
+
+Name: icons/full/clcl16/expandall.gif
+SHA1-Digest: Uq1zKzxBeHE6NJwB8lp8O86qAVY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$4.class
+SHA1-Digest: lwc5sxJwgtMmKNF4jZ3FVnuRqeg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverInstancePro
+ pertySource$1.class
+SHA1-Digest: SDBGiPevEUWTI6FQtCxx2DsnDrY=
+
+Name: org/eclipse/datatools/connectivity/ui/ContentExtensionBase.class
+SHA1-Digest: 88bWB0jVudndP1RfFI3dk16jve8=
+
+Name: icons/full/elcl16/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileS
+ ummaryPage$1.class
+SHA1-Digest: yyDnX89V8HdxGa4DKO1slmHYXJ4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/AbstractI
+ nvertableTableSorter.class
+SHA1-Digest: a9RSTIDPhTynZUNHWVHHZiPr8h8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverTreeContent
+ Provider.class
+SHA1-Digest: Me/a1jMQaluV9cWSOk57BEvqeZA=
+
+Name: icons/full/ovr16/obj_ovr_server.gif
+SHA1-Digest: ImBab+NieySoQ5a2skwnUGduzD4=
+
+Name: org/eclipse/datatools/connectivity/ui/messages.properties
+SHA1-Digest: eLi8KMtKUwoOJEjvAIwbrTnkKjo=
+
+Name: org/eclipse/datatools/connectivity/ui/ContentExtensionBase$1.cla
+ ss
+SHA1-Digest: bOp/5O+RneFpkTcO7dA/LtX8IXI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$2.class
+SHA1-Digest: 8GmTTn2UNvGzLENKcewZliz3Op4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectivityUIPlu
+ gin$1.class
+SHA1-Digest: D0Bs68kIPQmahqibsnt7i7tLoLU=
+
+Name: icons/new_db_element.gif
+SHA1-Digest: LEE9YAfo+Etg3mCwlVdzbXBBQPo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CategoryActionFil
+ ter.class
+SHA1-Digest: JAw8c0Aj2i6ZC8rJz1EzBWIUdJc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileChange.class
+SHA1-Digest: o48pczUOSsYYqo2nKZDxCEQ2/ro=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$3.class
+SHA1-Digest: gkI7hWIINsUGLXKDmLeQ/SEWuPo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CategoryPropertyS
+ ource.class
+SHA1-Digest: qP2QZb7zHOMVbDMtKg/OS4O9aD8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/AbstractI
+ nvertableTableSorter$1.class
+SHA1-Digest: OuZmM6PgineMWTqmzFRm3lV4IW0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$11.class
+SHA1-Digest: /LP7LEA/ZxXH+2POsxPIj8t5PT4=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileD
+ etailsPage.class
+SHA1-Digest: rfFrc/iLmTmFjx3yUJtfa8xcROc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$7.class
+SHA1-Digest: 5MXkBNBSIouQnBTLh4q48ZEYeDQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/resources.propert
+ ies
+SHA1-Digest: o+YbikbWPE3KfJ1W54RmSJii3QY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$ContentProvider.class
+SHA1-Digest: H0NnecRtYc1rOoZMjXAIdU9lPA4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/IMediator
+ .class
+SHA1-Digest: FklcfgF6WPa9b72W6KK4QKuICXU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$1.class
+SHA1-Digest: jo5IBlmbVOBnlSEIeXRXDe9QCfQ=
+
+Name: icons/full/obj16/default_server_started_obj.gif
+SHA1-Digest: skCVqql+nn8jzxw2JBAZaIPsTXI=
+
+Name: icons/full/obj16/server_obj.gif
+SHA1-Digest: lU/mNNTMvVht/gRfdS5NsNeTYqY=
+
+Name: icons/full/ovr16/warning_co.gif
+SHA1-Digest: KmtINYlwTqc3cDLljZdq8gbw8jI=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ICPWizard.class
+SHA1-Digest: ymbeNNEOz9PPA5W1B8rejleos5k=
+
+Name: icons/full/obj16/server_default_obj.gif
+SHA1-Digest: uV9OQNdBc1Ievoxo/DTnt6wYLSc=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/OtherDriverUIContr
+ ibutor.class
+SHA1-Digest: MVw8ERSIXYkePknjzCsPTirGl5o=
+
+Name: org/eclipse/datatools/connectivity/ui/PingJob$PingUIJob.class
+SHA1-Digest: krJSw1Nkfz6/+F7GIJTfhb4b/qQ=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectionProfile
+ PropertySource.class
+SHA1-Digest: YaQX4xGLvnM3Zla0buo68YKLWsQ=
+
+Name: org/eclipse/datatools/connectivity/ui/DriverClassBrowsePropertyD
+ escriptor$DriverClassDialogCellEditor.class
+SHA1-Digest: jpSyeKgD/KOmo2mHxm32Weyqboo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverPro
+ pertyEditorDescriptor.class
+SHA1-Digest: IgVGrg8yClEwjvpdh+yrpQUGdMg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverTreeFilter.
+ class
+SHA1-Digest: SBVIMSyNL5yfUTgMj+ZzlmmK7dc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileCopyChange.class
+SHA1-Digest: 8vu9Qp+kzeHm3i8AhRBoqBxMsWk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CCOverLayIconUtil
+ ity.class
+SHA1-Digest: 4hwVpwSCgCOTpkpg7SR+C//Xlh4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/NewCPWiza
+ rdCategoryFilter.class
+SHA1-Digest: QvK1nAh7ScrLLG2BTP0J8SgFNXs=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$8.class
+SHA1-Digest: 9S6RfcmWp1IGlUk9JHBfLwxLM24=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileCreateChange.class
+SHA1-Digest: JZYx1wLOM0iuxMjNK6h/8hcp16I=
+
+Name: org/eclipse/datatools/connectivity/ui/status/IConnectionExceptio
+ nHandler.class
+SHA1-Digest: 7C4JwOxnnIN8kQnZ1R96oaVsQo4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ISkippabl
+ e.class
+SHA1-Digest: J0kFldi1gytc+VK/uvku+sK1sS4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$4.class
+SHA1-Digest: 4AFiUEFthBzDRAJ4ZsGafNUqlsg=
+
+Name: org/eclipse/datatools/connectivity/ui/RefreshProfileJob.class
+SHA1-Digest: taKXc3lkg8o2MG+eBJNjZvN6WQE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$3.class
+SHA1-Digest: uk2Cjdq6HaGYQtgr6yvmet6436U=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$5.class
+SHA1-Digest: t8PEMslmJr27wl29F7dDqlfuV8c=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizardPage.class
+SHA1-Digest: 29CTcdzNQEpAubm4kmCL48Rnf/g=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/AddRepositoryViewA
+ ction.class
+SHA1-Digest: SvhanP8sAchOs/jvNLa50uY1Vko=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/NewCPWiza
+ rd.class
+SHA1-Digest: cZ3+cjywyZ2jlEeOzPOvY39vNx4=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/WorkOfflineAction.
+ class
+SHA1-Digest: AAV6rdGYojOlBOt99kTjd7K86oQ=
+
+Name: icons/driver_category_obj.gif
+SHA1-Digest: jISGVQY0XQxvM9vpiq7GGBQy+do=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$1.class
+SHA1-Digest: B/JxM18joz5tjZMkkqNBQjq4qkI=
+
+Name: icons/full/ovr16/obj_ovr_server_off.gif
+SHA1-Digest: l3keCri1SZ702JU6P5kM2J/x1sY=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ImportProfileViewA
+ ction$1.class
+SHA1-Digest: m5qhQtd/yBo6y6M0PNnMUYqSUPQ=
+
+Name: org/eclipse/datatools/connectivity/ui/RefreshProfileJob$1.class
+SHA1-Digest: 6DjXkLhSScmY3BXuqQeTfMh9mMY=
+
+Name: icons/full/obj16/server_set_obj.gif
+SHA1-Digest: M83YGeCF6QBtSWmos3oQa+V14Gc=
+
+Name: org/eclipse/datatools/connectivity/ui/CommonContentProviderBase$
+ 1.class
+SHA1-Digest: cwqCgWy/DEevZ0i3snXGH/3KyY4=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eSorter.class
+SHA1-Digest: ncsrPiX3WxCAcFlc2HQ9ORnWy48=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog$4.class
+SHA1-Digest: Oju+fQp29+famXjBEmcnjbiSkus=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewConnectionProfi
+ leWizardPage$2.class
+SHA1-Digest: 6VkZdesjkDMc3zBuZHuxJXJFThY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog.class
+SHA1-Digest: 0OS9mxdmEZwhQPF01VDA7yQ2CXw=
+
+Name: icons/full/elcl16/extensions.gif
+SHA1-Digest: Stz3OPkQtMPuCq2vHFlFNowZJ0M=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$AddTextModifyListener.class
+SHA1-Digest: w450uMuTpU4acujKI8zNqjNufaM=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ExpandAl
+ lActionDelegate$1.class
+SHA1-Digest: LqKJD/Ks/nRZtJLLbW3h/455XVo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$RemoveAction.class
+SHA1-Digest: OpTQRb8ZreDN7QDhd9+x7Xq+FVo=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ExtensibleProfileD
+ etailsWizardPage$1.class
+SHA1-Digest: vOjO9dVFpD799z2Qs3+QheURu4k=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ViewPropertyAction
+ $PropertyPageChangeListener.class
+SHA1-Digest: kIkHHRt/U/fiv5tiHaylUhXe1Gc=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/SaveOfflineAction.
+ class
+SHA1-Digest: P0zxnpZxSkab1tO5F2kwDTd1KAA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ILinkedWi
+ zard.class
+SHA1-Digest: mC9hA6ZCIOQRU3GyAr0YAu7E2kA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$4.class
+SHA1-Digest: ucTpOZpsAIRGBPTatibgd0qkGVE=
+
+Name: org/eclipse/datatools/connectivity/ui/status/DatatoolsStatusType
+ s.class
+SHA1-Digest: nzYgHJ9xAGx17nw3BLTksktpp5c=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: icons/full/dlcl16/expandall.gif
+SHA1-Digest: DiYk1S4/MCD3zNlTqMJxP4WL534=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileDeleteChange.class
+SHA1-Digest: fAYMjuz6Oxmm128zSNvvCah+qxs=
+
+Name: icons/full/obj16/server_started_obj.gif
+SHA1-Digest: skCVqql+nn8jzxw2JBAZaIPsTXI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/AddConnectListene
+ rRegistry.class
+SHA1-Digest: C/8SfZ6a6WIXDkFOb+xzxsUKOvM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverImages.clas
+ s
+SHA1-Digest: rra7BNHAc3VCOHRC4oNYAonCdeo=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/IDriverUIContribut
+ or.class
+SHA1-Digest: bXC02mzxBjH0oR3+0B0Ar2zw34E=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileD
+ etailsPage$4.class
+SHA1-Digest: dk5dynDENUAKqtpucao+2siypY8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProvider$2.class
+SHA1-Digest: wUjhb753wMvZ1mfW5UIjSzzknQA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$5.class
+SHA1-Digest: bkNgtz9GROI4BQhtmyFCxt9HA48=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverTre
+ eTableContentProvider.class
+SHA1-Digest: 8aNNO47bJ7rwzunythP0S6lzwxU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$1.class
+SHA1-Digest: vI2dD4WMVIyaE2BTdJXmqdVBsxg=
+
+Name: org/eclipse/datatools/connectivity/ui/CommonLabelProviderBase.cl
+ ass
+SHA1-Digest: olieN0bePVSzVTBca+ugCYJ4sh0=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$TextSorter.class
+SHA1-Digest: 2rZufMSnk9zF/vZ4/mFeoicdy8g=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eContentProvider$2.class
+SHA1-Digest: E0MYurPjfqXNCW2MuXuvY7GMREs=
+
+Name: org/eclipse/datatools/connectivity/ui/CommonContentProviderBase.
+ class
+SHA1-Digest: awXeYFv90rUD7XUzCcxWDPk5kDE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverInstancePro
+ pertySource.class
+SHA1-Digest: NSCRzVvxZY0KX6oMhGHAxU9Szzc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$9.class
+SHA1-Digest: zXEBmsv2KqS6WT3YGAQdT9Og3CI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/CategoryU
+ tils.class
+SHA1-Digest: wB+zVwyiInEgoY2Gfaf+bPvDVNw=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/ExpandAl
+ lActionDelegate.class
+SHA1-Digest: s+vnPY42Job3yZyXzSjINj64NbM=
+
+Name: org/eclipse/datatools/connectivity/ui/IConnectionProfileActionFi
+ lter.class
+SHA1-Digest: axMejR/W5cInHgsxwMlV12ntT4M=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileS
+ ummaryPage.class
+SHA1-Digest: 72XYX1xkNxQnDJJzvqK8DSvGeHg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$CopyAction.class
+SHA1-Digest: aIWOJT1jLOxFFAysiPt/ug0E04c=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/SummaryWi
+ zardPage.class
+SHA1-Digest: zIcwKd29Wm59nv8jFX9FQThri+c=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog$1.class
+SHA1-Digest: I7bOHeZj4qBPSnJGY9A9JsKT0MU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$6.class
+SHA1-Digest: uvLcrVlqdF86COI3BYBwj5JYxVk=
+
+Name: icons/sample.gif
+SHA1-Digest: sPlHaBgqEbziVzfmkP253NnKOWE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileMoveChange.class
+SHA1-Digest: c8eySBenZHJWGPe4Nib34aZKa0Q=
+
+Name: icons/full/ovr16/obj_ovr_error.gif
+SHA1-Digest: P6tABf1xezsyBapSVbypjgTECpo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPCategor
+ yWizardNode.class
+SHA1-Digest: EM6W0ylgovoODJYCfLEapOHSpqw=
+
+Name: org/eclipse/datatools/connectivity/ui/IAddConnectListener.class
+SHA1-Digest: ir/LPEseGQk7wkNOBBulLz30rjc=
+
+Name: org/eclipse/datatools/connectivity/ui/PingJob.class
+SHA1-Digest: Kap+DDp9XxJVJxGS0mGNSQp968A=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$P
+ ropertySetComparator.class
+SHA1-Digest: HQtLH7K/HoskHSKa9FoytFoC0T4=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ProfileDetailsProp
+ ertyPage.class
+SHA1-Digest: 6LOJD65oXVbfzqd/EWrsFfq2kbU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo.c
+ lass
+SHA1-Digest: f0VpQYLJwvpTLx5Eb9N8AzgiGa0=
+
+Name: icons/full/elcl16/clear_co.gif
+SHA1-Digest: /Jpbhq6Zuqwq6W2d0yH2+WqvkJ8=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ConnectAction.clas
+ s
+SHA1-Digest: w6Pg0nwokzTCwXlxSlt1JZCzspc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ImportPro
+ filesDialog$1.class
+SHA1-Digest: Z/tJ16F8yxUM3iGKKOatAE0nPuk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$1.class
+SHA1-Digest: +BS+tS0cqtsxiUhPvWt8w4qqEBc=
+
+Name: icons/full/cview16/enterprise_explorer.gif
+SHA1-Digest: cqtIFjJQ8I3CSjG5Oa8DQj6NT7E=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$4.class
+SHA1-Digest: uK6R0agcQyJXuStvup+OIMcGd8Y=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectivityUIPlu
+ gin$3.class
+SHA1-Digest: XEfDoOpraXJMYZL62DIFUWfZN/k=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$5.class
+SHA1-Digest: 1joArXHV8IW4gvUe6GE1WhK8bu8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ProfileUIManager.
+ class
+SHA1-Digest: ahjl/W7RflhF+poyzRRoU8TEyeU=
+
+Name: schema/connectionExceptionHandler.exsd
+SHA1-Digest: xnEfN9hzvW5p3rCyF9L1DkajBP4=
+
+Name: org/eclipse/datatools/connectivity/ui/ICategoryActionFilter.clas
+ s
+SHA1-Digest: Ca9Xt5gDNAdo3UeE9HnQMA+bsUM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/Exception
+ Dialog.class
+SHA1-Digest: l/Id9insEijJILnlayuo15M8XY4=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/actions/RefreshA
+ ctionProvider.class
+SHA1-Digest: Wt/EGc+kvBdUZzlxn1axzZiWZzI=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ProfileDetailsProp
+ ertyPage$2.class
+SHA1-Digest: K2a/kdJk/8It9Q6J1CGTHGtAOK4=
+
+Name: org/eclipse/datatools/connectivity/ui/navigator/ConnectionProfil
+ eLabelProvider.class
+SHA1-Digest: y0gtiahqAGXGP64AQ+qGH8l/DLc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$2
+ .class
+SHA1-Digest: ooaZ3HgU00QtGpmvOWmtHa3dxE4=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/IWizardCategoryPro
+ vider.class
+SHA1-Digest: YQ02aLppG9YQIyWc0HnSq++DYiY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/ExportPro
+ filesDialog$2.class
+SHA1-Digest: +a4iaK9DdWfrkrErDR20TXJIqDA=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ExtensibleNewConne
+ ctionProfileWizard.class
+SHA1-Digest: kJ5ItW4WxGnmkkaAdMsD3BCyLdY=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/ConnectionProfileD
+ etailsPage$1.class
+SHA1-Digest: ShIMcSmD/LEtFW0vbI1OgVkh730=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverTre
+ eTableLabelProvider.class
+SHA1-Digest: cNg5YYrO6dK950MIg70wcLuIhEw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/NewCatego
+ ryWizard.class
+SHA1-Digest: 4cztTqYJDL/I8wRePRYIqOzemEk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$2.class
+SHA1-Digest: 8hIhf1YzaMy3k44yye8fw8ARssc=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$2$1.class
+SHA1-Digest: VKZEwEuk2G807C6MEbF9YYJHo8g=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/OverlayImageIcon.
+ class
+SHA1-Digest: tFSFGT0QscIQr7NNfE4kbs5mgk4=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/AddConnectListene
+ rRegistry$1.class
+SHA1-Digest: E0S7+63HaG/Atuj+3FUZuLPWQtc=
+
+Name: icons/full/wizban/new_wiz.gif
+SHA1-Digest: rsdcAzZ+bs3jAD/Ph2rJ7qKg9gI=
+
+Name: icons/full/ovr16/error_co.gif
+SHA1-Digest: P6tABf1xezsyBapSVbypjgTECpo=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$6.class
+SHA1-Digest: ByLzLpMoSheRTctVCq2SNdukmYw=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/NewDriver
+ Dialog.class
+SHA1-Digest: Ki9TiNNT8Pa3lGDCOKldKpyuI60=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPWizardS
+ electionPage$5.class
+SHA1-Digest: Lkdj4zugd2XWNK/FN4NxHbr5lgU=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/NewReposi
+ toryWizard.class
+SHA1-Digest: nesMuGGkKsudb+1N0up+eLe8D1A=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$2$1$1.class
+SHA1-Digest: WYFSdSRDDFQ/AuRr9aOUXTsVVpA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DriverListCombo$N
+ ewButtonSelectionChangedListener.class
+SHA1-Digest: P4LxlISUtC7coMwIZimrnM/J24Q=
+
+Name: icons/full/elcl16/expandall.gif
+SHA1-Digest: Uq1zKzxBeHE6NJwB8lp8O86qAVY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/DelimitedStringLi
+ st$3.class
+SHA1-Digest: OXs/smcHv/ER1mxSW6iece7Wj0Q=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverPro
+ pertyEditorSafeRunnable.class
+SHA1-Digest: jBMv9VVnv45vdRzkx965EpBZ3ss=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/AddProfileViewActi
+ on.class
+SHA1-Digest: cZEanDa5/cDa2XpJY5+TMisL6BM=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ExportProfileViewA
+ ction.class
+SHA1-Digest: KxVD/kd0n78y8/PeOphE75OXjAk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ProfileImageSafeR
+ unnable.class
+SHA1-Digest: v/K0OFg40lU6gL4GqQXNufUu73Y=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/ConnectivityUIPlu
+ gin.class
+SHA1-Digest: sZnzZ9ES2h5lIajiH3JDOJUGGg8=
+
+Name: org/eclipse/datatools/connectivity/ui/IWorkbenchWindowPerspectiv
+ eActionFilter.class
+SHA1-Digest: FYmM/qZhBnsNLt2ly5GQWBFN9Dk=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/TreeSortS
+ electionListener.class
+SHA1-Digest: 6+SkRU6r6DivWG+5yOS/1IF5yy4=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/ExpandProvider.cla
+ ss
+SHA1-Digest: R07/A1++zMhYxW+EjaegFkHjZdE=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/DataT
+ oolsMainPage.class
+SHA1-Digest: S20mCgscl1P4LfL9iaiItxiTdEM=
+
+Name: icons/full/clcl16/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: org/eclipse/datatools/connectivity/ui/wizards/NewFilteredCPWizar
+ d.class
+SHA1-Digest: 9qUdNB+s9lmUAeGqXPSO0pQnn/8=
+
+Name: icons/full/dlcl16/clear_co.gif
+SHA1-Digest: dg0q4bQ+hk8bRAobdz7Ndag/3Ro=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDef
+ initionsDialog$1.class
+SHA1-Digest: FRWFxbAtar29TC7LwDuuyaM27T8=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/drivers/DriverCla
+ ssEditDialog$2.class
+SHA1-Digest: dAeazMTKVDGxrUDwQTcS++wZt50=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/preferences/Drive
+ rPreferences$AddAction.class
+SHA1-Digest: 6C5+au9Z4lHVZwy2jBBGrygEMZw=
+
+Name: icons/full/clcl16/import.gif
+SHA1-Digest: SH2O1I2SPd+x8io/eDY/66IoJbg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/DriverDia
+ log$10.class
+SHA1-Digest: EvlS00qTzhgnTYTqyFvers+o+BY=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/EditDrive
+ rDialog$6.class
+SHA1-Digest: FYII6uZGnNQ2RQp4jxkM9hDAfPU=
+
+Name: org/eclipse/datatools/connectivity/ui/actions/DeleteAction.class
+SHA1-Digest: 3UBr6oVYsgJR5HNkvZ1oLFV5wFI=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/PropertiesContent
+ Provider.class
+SHA1-Digest: Tsa3QGAHDMAUN66TWUndMC3GCek=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileBaseCreateChange.class
+SHA1-Digest: LrhUnbOuw/k/+Wq+D3X8PzQTMKM=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/dialogs/Invertabl
+ eSorter.class
+SHA1-Digest: DN0VlF+HUvGptia1xL5LDMV1wjA=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/refactoring/Conne
+ ctionProfileCopyProcessor.class
+SHA1-Digest: ys2wmyIyn1wAjGkjgZfFsY9wK0o=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/wizards/CPVersion
+ PropertyPage$1$2.class
+SHA1-Digest: 1ZhkrSU7mVFplJ+Gt8fT6QTUmYg=
+
+Name: org/eclipse/datatools/connectivity/internal/ui/CPRepositoryConte
+ ntProvider$4.class
+SHA1-Digest: T+Oc7/QsFWiuVxaijzma4qv3UDc=
+
+Name: icons/full/obj16/uncheck_obj.gif
+SHA1-Digest: tRqqaZ4HamLSs322cz7bTWloSps=
+

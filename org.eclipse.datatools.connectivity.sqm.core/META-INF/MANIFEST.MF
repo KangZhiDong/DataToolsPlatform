@@ -1,0 +1,720 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.eclipse.datatools.connectivity.sqm.core; sing
+ leton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.core.resources;bundle-version="[3.2.0,4.0.
+ 0)",org.eclipse.emf.ecore.change;bundle-version="[2.2.0,3.0.0)",org.e
+ clipse.emf.ecore.xmi;bundle-version="[2.2.0,3.0.0)",org.eclipse.core.
+ runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.datatools.modelbas
+ e.sql;bundle-version="[0.9.0,1.5.0)",org.eclipse.datatools.modelbase.
+ dbdefinition;bundle-version="[0.9.0,1.5.0)",org.eclipse.datatools.con
+ nectivity;bundle-version="[1.2.3,2.0.0)"
+Bundle-Activator: org.eclipse.datatools.connectivity.sqm.internal.core
+ .RDBCorePlugin
+Export-Package: org.eclipse.datatools.connectivity.sqm.core,org.eclips
+ e.datatools.connectivity.sqm.core.connection,org.eclipse.datatools.co
+ nnectivity.sqm.core.containment,org.eclipse.datatools.connectivity.sq
+ m.core.definition,org.eclipse.datatools.connectivity.sqm.core.mapping
+ s,org.eclipse.datatools.connectivity.sqm.core.rte,org.eclipse.datatoo
+ ls.connectivity.sqm.core.rte.fe,org.eclipse.datatools.connectivity.sq
+ m.core.rte.jdbc,org.eclipse.datatools.connectivity.sqm.core.util,org.
+ eclipse.datatools.connectivity.sqm.internal.core,org.eclipse.datatool
+ s.connectivity.sqm.internal.core.connection,org.eclipse.datatools.con
+ nectivity.sqm.internal.core.containment,org.eclipse.datatools.connect
+ ivity.sqm.internal.core.definition,org.eclipse.datatools.connectivity
+ .sqm.internal.core.resources,org.eclipse.datatools.connectivity.sqm.i
+ nternal.core.rte,org.eclipse.datatools.connectivity.sqm.internal.core
+ .rte.fe,org.eclipse.datatools.connectivity.sqm.internal.core.util,org
+ .eclipse.datatools.connectivity.sqm.loader
+Bundle-Version: 1.2.8.v201401230755
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Import-Package: com.ibm.icu.text;version="3.6.1",com.ibm.icu.util;vers
+ ion="3.6.1"
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterListener.class
+SHA1-Digest: 1gEgAV0cD6uOcnM7WF7MEX85m0o=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/mappings/ProviderIDt
+ oDriverCategoryIDDescriptor.class
+SHA1-Digest: crwl1ypPjzsiGrhiK/F+4ZU3oyY=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUDTAttributeLo
+ ader.class
+SHA1-Digest: n4Mlz0TAiVUgVQLFAPSyR8O4GT0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCRoutineColumnL
+ oader.class
+SHA1-Digest: cThKYQ1/0BsayTRL74PoOh7rwqY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ SQLExceptionHandler.class
+SHA1-Digest: 9jsdeeBEhjfNL0Dmh2SmpnCONSE=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /ContainmentProvider.class
+SHA1-Digest: a1+CjWmTfFym2UNp0aNb14EKuKM=
+
+Name: schema/validConnectionHandler.exsd
+SHA1-Digest: SBLpgQ4Ita0VW2GFTzhbugDwZtw=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /UserDefinedTypeContainmentProvider.class
+SHA1-Digest: 6FLH3/Pfap+yQsUVjpmrOyY/3XU=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/l10n/Generi
+ cCatalog.properties
+SHA1-Digest: AoUv9Ozg+UWnoguPxolNgSaYfbc=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /IndexContainmentProvider.class
+SHA1-Digest: g0W6nEl+MZAZ3E56q7XynB8TX40=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCRoutineLoader$
+ ProcedureFactory.class
+SHA1-Digest: 1LNRNuFQt2d8vBp9gdX0wTnnzTY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /PrivilegeContainmentProvider.class
+SHA1-Digest: bkHvIfG1fzHnyV1lrZuU1/dh+x8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCPrimary
+ Key.class
+SHA1-Digest: P4dYML8yI2L897MjokNhbffbdyU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCTempora
+ ryTable.class
+SHA1-Digest: Zo0XvXwIuqkNBN+tm/DirHJPD9U=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/DataModel
+ ElementFactory.class
+SHA1-Digest: Xklrc6lfjMPAEy1CYozFO3s3kno=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/containment/Abstract
+ ContainmentProvider.class
+SHA1-Digest: OWNCB+tQso3uS8IuX2Mc5QT+NR8=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/RDBCorePlug
+ in.class
+SHA1-Digest: ejHUGc/uTh31Bh0SjZAuImF+eBw=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl$IFilter.class
+SHA1-Digest: VlduYbm7us2jV68aD0lvUzqFtqI=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFactory.class
+SHA1-Digest: r0wo7ZfsnIsgkJ7uCzwFmuE1MBk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Databa
+ seProviderHelper.class
+SHA1-Digest: MjGbJCA3cSnBhuPPOsplF9QwCEg=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilter.class
+SHA1-Digest: SMXc2ZqOnPavHV3voG6XMl0pfYk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /ConstraintContainmentProvider.class
+SHA1-Digest: jXY3qOSyVLejhjFYkqob3o9qxVo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/SQMConnectionFactory
+ .class
+SHA1-Digest: UMZ7X2gIg1eZzgw9ECRxDlOZ1Yk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /CatalogContainmentProvider.class
+SHA1-Digest: rzc/Xf30SbTZKi8uLvZjDkyqfaI=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUDFColumnLoade
+ r.class
+SHA1-Digest: 7Zpden60mxPEZiuXPfCpPP8qUcY=
+
+Name: schema/logicalContainment.exsd
+SHA1-Digest: 0FEF10zbDe0+ZSp5nCy4ZT0kQmg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/connection/IValidCon
+ nectionHandler.class
+SHA1-Digest: KHsPzU/iRT0UZkjcgoyG4E1Rixs=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /AuthorizationIdContainmentProvider.class
+SHA1-Digest: mhGu2zRhvxABENiiqXiMutSfwKo=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader$Vi
+ ewFactory.class
+SHA1-Digest: ING3sGsC0zSBJ4zTrnYjDHDzBcg=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUDTSuperTypeLo
+ ader.class
+SHA1-Digest: LZTpgZjORgpyZxShjqx/acezpd0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Catalo
+ gUtil.class
+SHA1-Digest: h8B+AqowYj4hU9yysRmZMrAlmMM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/EngineeringOptio
+ n.class
+SHA1-Digest: RVGDaOcILUXiheIULR8aV5Pmlvo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCTable.c
+ lass
+SHA1-Digest: aYWJw/eQwyYFKxcN7GGXfqC3NwA=
+
+Name: schema/mappings.exsd
+SHA1-Digest: k7l3Sd50A0NIeKMi/Jjd1fDafZQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/IDatabase
+ Recognizer.class
+SHA1-Digest: mW/6y3Z41qh+/hn64qMc6BTUhQk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCIndex.c
+ lass
+SHA1-Digest: ZmUZ2YD+PcaixJIslyLLPp0Lxs4=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/IConnectionFilterP
+ rovider.class
+SHA1-Digest: cA83ImBWg0rYdsy53K7ViZkyOJc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/connection/Connectio
+ nFilter.class
+SHA1-Digest: ZeGW9C2McPvEVJYHtekhNdZWY8w=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/DatabaseD
+ efinitionRegistry.class
+SHA1-Digest: mmpS5Idr7HqW+TbJtCFSlDCYBXk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/ICatalogObjectLi
+ stener$EventTypeEnumeration.class
+SHA1-Digest: hksDFPKwl2RtZ+LOSMsqjg76V+4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCView.cl
+ ass
+SHA1-Digest: rCC7AJ1damaPFCEJfuLH0CZ6L8k=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /SequenceContainmentProvider.class
+SHA1-Digest: DgwwCuGXhHVi/7adZDGmw8LMQO4=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/Messages.class
+SHA1-Digest: kFjBiDKMOWlBjOI59TyuGBsSIBU=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ ConfigElementDatabaseRecognizer.class
+SHA1-Digest: MbTI6T+FD60sCPtKaAcCZZIfqc8=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ DatabaseConnectionRegistry.class
+SHA1-Digest: qkuk19EziaVf7ZZofA5R1rpJgEc=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCSchemaLoader.c
+ lass
+SHA1-Digest: rIBl6RCSoERHB+QO2X1WhyuQE8g=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ DatabaseDefinitionImpl.class
+SHA1-Digest: AQkSxTif3g9w83O0OPpPRemafYM=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionSharingListener.class
+SHA1-Digest: dTGGFmDU0E3/cnSQIQ9nNyXyUIY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Connec
+ tionUtil.class
+SHA1-Digest: 9NCG7+DxsQprQ+AEx743ORrUTnk=
+
+Name: schema/dataModelElementFactory.exsd
+SHA1-Digest: vdp3T4z3vhX+jaGF1XRXNolZmJc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/containment/Containm
+ entServiceImpl.class
+SHA1-Digest: 5RFX0+XQhiv+BfQFfKJFK9DMxD4=
+
+Name: schema/ddlParser.exsd
+SHA1-Digest: QefrOXOE1oVaN5wq7ryCIIMLLM0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ Predicate.class
+SHA1-Digest: fqZl/IiOn2iNxaE2+vgY8oCZumE=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCProcedureColum
+ nLoader.class
+SHA1-Digest: R34X2s/gUenszMQPUh7J4kjMfvo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/containment/Containm
+ entServiceImpl$Provider.class
+SHA1-Digest: BHIziKdkB8FXHZU0qRaJcjV7R0w=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/DefaultDa
+ tabaseRecognizer.class
+SHA1-Digest: OqrgwSgr/zYfbQMBVBlXDuE52OY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/Enginee
+ ringOptionCategoryID.class
+SHA1-Digest: OaPktX4Uw29Q7UvbnL8LjdsPyAs=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl$LikeFilter.class
+SHA1-Digest: H4Sh6YLBrcgNrT2ruCPUpK/9hh0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/messages.propertie
+ s
+SHA1-Digest: VKvH8hRDfwjMc/IRoEYBdLLe33Q=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionInfo.class
+SHA1-Digest: LBcvhTcn3w9Sx/GCy9M1dmQJcuE=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /GroupID.class
+SHA1-Digest: Dlx2exPsumMsheTkR3HlaT7OQ0M=
+
+Name: schema/databaseRecognition.exsd
+SHA1-Digest: uWcl8JvWb7AkDZSQAkKLfMLur1c=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCDatabas
+ e$FilterListener.class
+SHA1-Digest: C5qv+mlRIqTauK7bloUuFDhOQPA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/fe/GenericDdlScr
+ ipt.class
+SHA1-Digest: HKYQSNVAATdf7lkZTiJS1Aiz3K8=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCCatalogLoader.
+ class
+SHA1-Digest: iMtIybFziNW1RnnxprbmdJDWWz8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/DDLGenerator.cla
+ ss
+SHA1-Digest: +pBAo3BK0vMljeWgSZSOtMG6/qY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/MetaDataE
+ xtension.class
+SHA1-Digest: gARIe9TkRojKKkOMcb1Aaw+HRjo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/connection/DatabaseC
+ onnectionRegistry.class
+SHA1-Digest: iAnyiy24XXClglXGRkN74is50/c=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl$InFilter.class
+SHA1-Digest: Ei3YR+0rPKk7a1kI4WqRj9b9Sx0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ DatabaseDefinitionRegistryImpl.class
+SHA1-Digest: Qv0iOWqu7GSakySj+D8Yoh8wH3U=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl.class
+SHA1-Digest: wu4Z8m0/Lwp4SCBSQZmdcY1UQuQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /RoleAuthorizationContainmentProvider.class
+SHA1-Digest: 1qXjIv03CY3UeAtXYOhAswkhpSg=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionInfoImpl$1.class
+SHA1-Digest: joDb7VA8u73mSxiiLfcjAfxLRSo=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader$Gl
+ obalTempTableFactory.class
+SHA1-Digest: kKQsW9Z/ifWqZCUHavwxalTht9Q=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCUniqueC
+ onstraint.class
+SHA1-Digest: pBNGy1UAJvqHiUJWR6/i+aDUZjc=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUserDefinedTyp
+ eLoader$DistinctTypeFactory.class
+SHA1-Digest: Sp83jII35oaglHa7S0dRfwR1DvY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /TriggerContainmentProvider.class
+SHA1-Digest: WD/VOD9SDJIQi5w7tHF2rTRXFZY=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUserDefinedTyp
+ eLoader$StructTypeFactory.class
+SHA1-Digest: eTIA00vNqUA0hsTfLq7rVpUxyzA=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCBaseLoader.cla
+ ss
+SHA1-Digest: Wbt8X87q2jiio1sGS/VeX98RCas=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/connection/Connectio
+ nInfo.class
+SHA1-Digest: 6dS5+4oVO5FqIgOiE6tT+ljCXi8=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/ResourceUti
+ l.class
+SHA1-Digest: Xv0iJ6AHR9woQCXbToEKupw+KrE=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Generi
+ cCatalogMessages.class
+SHA1-Digest: Xv70phmeK1sjD24y7DPuS3cfA9Y=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /DependencyContainmentProvider.class
+SHA1-Digest: cbTO3GHVscVlhZ4j0ofwT4Y7FJA=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ AbstractMetaDataExtension.class
+SHA1-Digest: 2vbf1Rs191uP4k6EbBGz2Hmn29I=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/mappings/MySafeRunna
+ ble.class
+SHA1-Digest: BgLl/yONAusts8z5Q/Gya4An8Hc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/ICatalogObjectLi
+ stener.class
+SHA1-Digest: RQfvIf6eNNmCOd/JAH0LVO8qZnA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCProcedu
+ re.class
+SHA1-Digest: ayvobZwD/CuULgbmp0Wi1p9vcH8=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/fe/Gene
+ ricDeltaDdlGenerator$ChangeRecord.class
+SHA1-Digest: gdy6dPtTtaf8QbnqVtVQzogi188=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/mappings/ProviderIDM
+ appingRegistry.class
+SHA1-Digest: /lDg3htQP80Smw6jJUOcgczUwW0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/SchemaFilterProvid
+ er.class
+SHA1-Digest: gyXNw4kTknNUghBqhFpJjd6l+Ro=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/IEngineeringCall
+ Back.class
+SHA1-Digest: aM4IjlVsEavqltDjsbb8nnnveU4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCForeign
+ Key.class
+SHA1-Digest: sUblkZsA8hgEjlzX9z9PcX050D8=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Change
+ DescriptionUtil.class
+SHA1-Digest: 3aAHAkULr1ZvEWavJlR3xb7BEvU=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableColumnLoa
+ der.class
+SHA1-Digest: wnyRgXt1X8BX+t+WeMpWBYS68H0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCRoutineLoader.
+ class
+SHA1-Digest: lW4JyYrUY1QNaq4TcWA1ThfGx6g=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/fe/Gene
+ ricDeltaDdlGenerator.class
+SHA1-Digest: jxtxOZbEhnNpc6fhJyQP3yZ6s0s=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/containment/Containm
+ entService.class
+SHA1-Digest: 0owDTDJhnSlI7ukV3GNhfDtV18E=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/fe/Gene
+ ricDdlGeneration.properties
+SHA1-Digest: egJqPwWxQSSx9RnXR0UvE0p77/I=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/fe/GenericDdlBui
+ lder.class
+SHA1-Digest: pfVpWqY7qhoMMA91NUHT7NVLdt4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCProvide
+ r.class
+SHA1-Digest: 3gBdHtMqlJBpYWhuleR+cn8r1Dk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ IConnectionSharingEnhancedListener.class
+SHA1-Digest: XF9xc1ws3EbfVwgWWhbrO/iHhBI=
+
+Name: schema/databaseDefinition.exsd
+SHA1-Digest: ntCwlyFTOlqeOwdQwXESZmoR4fk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ StatementAdapter.class
+SHA1-Digest: 8sJC3WV7tTXefEN1gDTiGdWc9m0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableConstrain
+ tLoader.class
+SHA1-Digest: 75a5QgYZVDiyM/G0Cp63hbEXuWg=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/DeltaDD
+ LGenerator.class
+SHA1-Digest: 65z3LeImoUYGXkAblyRcQ1/NnaU=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl$NotInFilter.class
+SHA1-Digest: nnfwJApE3+qHLYomBXrk0ao+WSY=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader.cl
+ ass
+SHA1-Digest: IhNwOBnPV5Zy+o1XLZ6bDZQKb9A=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCDatabas
+ e.class
+SHA1-Digest: wQXZlqKsX16IFgDcKVw05EpY2gc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/ICatalogProvider
+ .class
+SHA1-Digest: rgZZG+xXynuOwM032Glq1YTPK8Q=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /TableContainmentProvider.class
+SHA1-Digest: BOLdNME8dyAe7KTWnBbzG6PyOH4=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Catalo
+ gUtil$CatalogTaskLabelProvider.class
+SHA1-Digest: 33z0LSYBpy7BPt/zZTqp5nVcOZ0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionInfoImpl.class
+SHA1-Digest: 9JFGR6vxiaIwI1BtEH4vqu7t+U0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/DDLPars
+ er.class
+SHA1-Digest: FEeqyEkmYHqlxLYDoO3nOUmeK5o=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCStructu
+ redUDT.class
+SHA1-Digest: dUYDRO6SpB2eV/0/in4KfdGZcFo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCUserDef
+ inedFunction.class
+SHA1-Digest: gK8KK68bff0CVLqOXDv7H21nh+k=
+
+Name: schema/catalog.exsd
+SHA1-Digest: UFJKTf+0v0pPiHR/AFilPf6bnNU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/DatabaseD
+ efinition.class
+SHA1-Digest: /szxOZysH6kviaF7oowmBYCiR/A=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/ICatalogObject.c
+ lass
+SHA1-Digest: PeRXqZJ8O2nM9C39O5gAohCWuMM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/util/CatalogLoaderOv
+ errideManager$LoaderDetails.class
+SHA1-Digest: QHu+Fl0qyXysgRiPv1H/Fw6ibzg=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionAdapter.class
+SHA1-Digest: rCCLurQD1NLoyqpr6NnChLfezkM=
+
+Name: .options
+SHA1-Digest: liRMvBmoFo/GqiOPdYe6qMiz6ds=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCTempora
+ ryTable$KeyColumnCollection.class
+SHA1-Digest: CCiQJm1NI9qvTHKrg0IXAr/rl3U=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /CommentContainmentProvider.class
+SHA1-Digest: XUGDhZ+mNde6aWDTgXF+4JM0ZD0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader$Lo
+ calTempTableFactory.class
+SHA1-Digest: tHQ9pjP0cNjeWgqMvjRcCkMrgQI=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/CatalogFilterProvi
+ der.class
+SHA1-Digest: LobKRNTt24fzMCpHImlo5yr3YZU=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader$Ta
+ bleFactory.class
+SHA1-Digest: 3I6L8WRt3+Te1gvRNCsw1uimdB4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCColumn.
+ class
+SHA1-Digest: azEGNrr+WBigJ0Fcic65HJVrwmI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/Engineeri
+ ngOptionID.class
+SHA1-Digest: PHv1eUHbXIkXiIazklsElCSl1Us=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableLoader$IT
+ ableFactory.class
+SHA1-Digest: 621tRj2kiMrpOsRpqUPhdqgV23k=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/fe/Gene
+ ricDdlGenerationOptions.class
+SHA1-Digest: oxx3DreSI9yTowFozJYxxVhJ734=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/RDBCor
+ ePluginConstants.class
+SHA1-Digest: pxUUiOAaH3TvY58eU3xGTQYeCPE=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/rte/Enginee
+ ringOptionCategory.class
+SHA1-Digest: d7uGag/eAEo1c5ILphyEr+zGygc=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ResultSetAdapter.class
+SHA1-Digest: wVrv84g1zxSYPHTbKu9z+/TKQA4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/util/CatalogLoaderOv
+ errideManager.class
+SHA1-Digest: +MXqxW4c9M8tvqUbbvcIzbTiIow=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCSchema.
+ class
+SHA1-Digest: qxLFGD6wWDydxFj5XV9xbWhPNQ0=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/ConnectionFilterPr
+ ovider.class
+SHA1-Digest: 8mrkrMcIIg4Q7sLCCul3wZSGDp0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/definition/DefaultDa
+ tabaseDefinition.class
+SHA1-Digest: 5aDjFDE4yDtOkWIyywGwP+Brma4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCCatalog
+ .class
+SHA1-Digest: 4Rpt/lUE0pONu4QhiLEQfKcHIQg=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/connection/
+ ConnectionFilterImpl$NotLikeFilter.class
+SHA1-Digest: /wvp/8TlQyoUAdxMOAbSBtWG06w=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ DefaultDataModelElementFactory.class
+SHA1-Digest: 5bxh8zi2dr5bB9FkEM0lBbi5Aac=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/fe/GenericDdlGen
+ erator.class
+SHA1-Digest: xqnbMvUMal2DqLApuyW4d6Vt9nc=
+
+Name: plugin.properties
+SHA1-Digest: Af8wDJ15/MYgfZTWoK1Ay/fkFIc=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableSuperTabl
+ eLoader.class
+SHA1-Digest: t0T4JwFlsigzbpy1XEUSKo4RnYs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/SQMServices.class
+SHA1-Digest: vfFRobzYXJgH8g9lL9nchIk6TVo=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/SaveDD
+ LUtility.class
+SHA1-Digest: cOZSHAvh0Oz5lGO+zWsqNxBTSWw=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /DatabaseContainmentProvider.class
+SHA1-Digest: q77qlu8gOxFdouIhF6qBB/280hY=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCTableIndexLoad
+ er.class
+SHA1-Digest: p6HFJ7dkO8TBYdl9vpRBqi1LTgk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCSchema$
+ 1.class
+SHA1-Digest: Wb2oBcSIJRdhYLnFbBEg74PoeEY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/fe/GenericDdlBui
+ lder$dummyEngineeringCallBack.class
+SHA1-Digest: upnUoKB+Jq1kk+iEDPLSHHRJf74=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/fe/GenericDdlGen
+ erator$SingletonOptionDependency.class
+SHA1-Digest: nWcl4bDIb/Njrz65zB7MfKLDoI4=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /ColumnContainmentProvider.class
+SHA1-Digest: O4a5bDNPqKc1FngLYhx4iZlMCqw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCParamet
+ er.class
+SHA1-Digest: yDuUttFZhCKeAvARzGzXtYRB4JY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCDistinc
+ tUDT.class
+SHA1-Digest: 4/lsxvtGDQaKMxghkHWZFWWFhko=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCRoutineLoader$
+ UserDefinedFunctionFactory.class
+SHA1-Digest: ANf1RnbAkyFY7NAq0iROWI8ggI4=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ IDatabaseRecognizer.class
+SHA1-Digest: uOBon+ogMkMVIZ+KJGYe8YkVD5I=
+
+Name: plugin.xml
+SHA1-Digest: CdojavlMp39ga0Etww1vVudoDkM=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/resources/I
+ DataResource.class
+SHA1-Digest: DNQVC+IxVUbJj9dH2E2BltOYZTs=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/Change
+ DescriptionUtil$1.class
+SHA1-Digest: l7hTSqQGt7AXpQRYhsrroosLMJs=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUserDefinedTyp
+ eLoader.class
+SHA1-Digest: uX8swY2QlkbNLFSwavkxW/htiuY=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/definition/
+ ConfigElementDatabaseRecognizer$DbDefinitionMapping.class
+SHA1-Digest: Mwz4D7TECDSwqaYx+ZIReGOKBG0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /ViewContainmentProvider.class
+SHA1-Digest: ruGNgBepZhL01KFEFJqAKsA2fVo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/EngineeringOptio
+ n$EnumLiteral.class
+SHA1-Digest: Z4bT5eOj2VBWA6BRVfiz9z4jlrk=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/SchemaObjectFilter
+ Provider.class
+SHA1-Digest: A24vLyz6WzxNVqjvCBvWQX3bi+c=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /SchemaContainmentProvider.class
+SHA1-Digest: 12it+h4UfNQUea4YMWMSxjLxfc0=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/containment
+ /RoutineContainmentProvider.class
+SHA1-Digest: mlOVhlq61+W0iKO9dwJxCm4OKvA=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCUserDefinedTyp
+ eLoader$IUDTFactory.class
+SHA1-Digest: I2NFUJpeqYUKRP6ot5zB9dU7erU=
+
+Name: schema/metaDataExtension.exsd
+SHA1-Digest: vz+PYgvUdBwoFeQ4KczJPcEVBg8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/RefreshManager.c
+ lass
+SHA1-Digest: BxIKwDOMkQexAVPeOID19Go8nXk=
+
+Name: org/eclipse/datatools/connectivity/sqm/internal/core/util/RTEHel
+ per.class
+SHA1-Digest: uZp/APlSffwgptIXa02VqjucOUY=
+
+Name: schema/sqlexceptionHandler.exsd
+SHA1-Digest: a/EYOp264S3fIqVpOHychSvdiIg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/rte/jdbc/JDBCCatalog
+ $FilterListener.class
+SHA1-Digest: bM8dgHpLnei6nXJaQ/Y0bt7IfUQ=
+
+Name: schema/ddlGeneration.exsd
+SHA1-Digest: Cuj7C0V51BztbkNwMUYmEiFH0gc=
+
+Name: org/eclipse/datatools/connectivity/sqm/loader/JDBCRoutineLoader$
+ IRoutineFactory.class
+SHA1-Digest: fODxrJLNVslZ5BRH07OcMvShHug=
+

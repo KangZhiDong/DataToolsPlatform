@@ -1,0 +1,904 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.datatools.connectivity.sqm.core.ui; s
+ ingleton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.2.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.core.reso
+ urces;bundle-version="[3.2.0,4.0.0)",org.eclipse.ui.navigator;bundle-
+ version="[3.2.0,4.0.0)",org.eclipse.emf.ecore;bundle-version="[2.2.0,
+ 3.0.0)",org.eclipse.emf.ecore.xmi;bundle-version="[2.2.0,3.0.0)",org.
+ eclipse.datatools.modelbase.sql;bundle-version="[0.9.0,1.5.0)",org.ec
+ lipse.datatools.modelbase.dbdefinition;bundle-version="[0.9.0,1.5.0)"
+ ,org.eclipse.datatools.connectivity.sqm.core;bundle-version="[0.9.1,1
+ .5.0)",org.eclipse.datatools.connectivity.ui;bundle-version="[0.9.1,1
+ .5.0)",org.eclipse.datatools.connectivity;bundle-version="[0.9.1,1.5.
+ 0)",org.eclipse.datatools.help;bundle-version="[1.0.0,2.0.0)";visibil
+ ity:=reexport,org.eclipse.help.base;bundle-version="[3.2.0,5.0.0)";re
+ solution:=optional
+Bundle-Activator: org.eclipse.datatools.connectivity.sqm.core.internal
+ .ui.RDBCoreUIPlugin
+Export-Package: org.eclipse.datatools.connectivity.sqm.core.internal.u
+ i,org.eclipse.datatools.connectivity.sqm.core.internal.ui.dialogs,org
+ .eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.filter,
+ org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.help
+ ers,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.
+ popup,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explore
+ r.popup.providers,org.eclipse.datatools.connectivity.sqm.core.interna
+ l.ui.explorer.providers.content.virtual,org.eclipse.datatools.connect
+ ivity.sqm.core.internal.ui.explorer.providers.decorators,org.eclipse.
+ datatools.connectivity.sqm.core.internal.ui.explorer.providers.decora
+ tors.impl,org.eclipse.datatools.connectivity.sqm.core.internal.ui.exp
+ lorer.services,org.eclipse.datatools.connectivity.sqm.core.internal.u
+ i.explorer.virtual,org.eclipse.datatools.connectivity.sqm.core.intern
+ al.ui.icons,org.eclipse.datatools.connectivity.sqm.core.internal.ui.l
+ 10n,org.eclipse.datatools.connectivity.sqm.core.internal.ui.preferenc
+ es,org.eclipse.datatools.connectivity.sqm.core.internal.ui.services,o
+ rg.eclipse.datatools.connectivity.sqm.core.internal.ui.util,org.eclip
+ se.datatools.connectivity.sqm.core.internal.ui.util.resources,org.ecl
+ ipse.datatools.connectivity.sqm.core.internal.ui.widgets,org.eclipse.
+ datatools.connectivity.sqm.core.ui.explorer.filter,org.eclipse.datato
+ ols.connectivity.sqm.core.ui.explorer.providers.content.virtual,org.e
+ clipse.datatools.connectivity.sqm.core.ui.explorer.virtual,org.eclips
+ e.datatools.connectivity.sqm.core.ui.services
+Bundle-Version: 1.2.3.v201212070447
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Import-Package: com.ibm.icu.text;version="3.6.1",com.ibm.icu.util;vers
+ ion="3.6.1"
+Bundle-ManifestVersion: 2
+
+Name: schema/labelService.exsd
+SHA1-Digest: 2+DK1KaZXmzq8mVOrDoDROcumG4=
+
+Name: icons/connectcache.gif
+SHA1-Digest: yLtlIg4bFsLpTqYu9w0MIdGCZFo=
+
+Name: schema/creationInfoProvider.exsd
+SHA1-Digest: NYuIo33AaQxjBK0SxhydqZwdyJY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/CreationInfoRegistry$1.class
+SHA1-Digest: 8g+HROs1UtkWaq99RjGVQ5KcF04=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/wi
+ zardWatermark.bmp
+SHA1-Digest: nxQ1w/kdXs40uh74pt1bUIxMTE0=
+
+Name: icons/schema.gif
+SHA1-Digest: kfAXAVaoG1DigLJMWcPQz1K8u/c=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IServerManagerNode.class
+SHA1-Digest: yngAWIjqf7cJI0as2NZY49nZoCY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/virtual/
+ IVirtualNode.class
+SHA1-Digest: T5i98XvF/kUdUDopRCTpYmp/Hgk=
+
+Name: icons/notNullColumn.gif
+SHA1-Digest: 33YQd2kNzFrPBLyr0Z3oScmj2RE=
+
+Name: icons/generate_code.gif
+SHA1-Digest: oYwWWBR7fOp5gtLfGBMFacmRXLU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/res
+ ources/DataToolsUIConstants.class
+SHA1-Digest: oG/fNCyL6MNumsBF4ee1RqxOo2M=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/ITriggerNode.class
+SHA1-Digest: b7kY8jCG3DJGwuzzHR2VjlVe0kw=
+
+Name: icons/properties.gif
+SHA1-Digest: 7jOWSk6JawO/fAbC1IPxp5EzvmM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/FilterNodeDecorationService$1.class
+SHA1-Digest: 7ojxR7sAYxSIje1Uz3CoRhLYwms=
+
+Name: icons/loading4.gif
+SHA1-Digest: zDieC2glNN6GdfKpd1JYOJgjQCc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /popup/AbstractAction.class
+SHA1-Digest: F8+hFvEraLDxJHtk0H4OQEWu+Pg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /ExplorerSorterProvider.class
+SHA1-Digest: mfQGqILoIcnYf3giKBiSlyWp/T0=
+
+Name: icons/udt.gif
+SHA1-Digest: M2722So6oQZ/HDeGKoGHoXx40WA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnTable.class
+SHA1-Digest: f2rGRqA/nFt0u/dkgvoM+7nCm9g=
+
+Name: icons/save_edit.gif
+SHA1-Digest: Gs36FIX/wUF2XTRR4iWi3ItWWAM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/res
+ ources/ResourceLoader.class
+SHA1-Digest: qwRaO5FCxzaTrOcUmOQisgYOsuU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/widgets/
+ IDataSelectionValidator.class
+SHA1-Digest: ERB4bWylgwj2IoOxuqM0ilUvt78=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/LabelDecoratorPreference$2$2.class
+SHA1-Digest: qfioQls9yuszbqTFexXE6VfQPyo=
+
+Name: icons/pk_decorate.gif
+SHA1-Digest: Ec0WYRI0nfogwjx2CSpcHup1KAU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/ISchemaNode.class
+SHA1-Digest: iL5AFuS2tS+dT7vynTNZag4Ti9Y=
+
+Name: icons/dependency.gif
+SHA1-Digest: N95M8QuD7+WnKEfIk0LPfTG9gg8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /helpers/FilterHelper.class
+SHA1-Digest: inAHT5ZEdjuNseKIpXVvxaCJvyQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$7.class
+SHA1-Digest: 5i1oeIYgp9qmVT1s9M65JuAIbAE=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/TriggerNode.class
+SHA1-Digest: wNcQvFYFZk7QcABV34t4PiNifL4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ConnectionFilterComposite.class
+SHA1-Digest: 5BTFFTInaAxmV3Ni1rHl3z4bRsQ=
+
+Name: schema/sorterValidatorProvider.exsd
+SHA1-Digest: UUcOvAndAtYNsR8xs2B2OSTHdkA=
+
+Name: icons/connection.gif
+SHA1-Digest: O8B9sI/QjxZ+RgbaVQPAlETQzgU=
+
+Name: icons/cachedConnection.gif
+SHA1-Digest: cjjNVHfnIxTahd6XeMexjrjYG4M=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/da
+ tabaseToModelWizard.bmp
+SHA1-Digest: db9dX8FtHbaZ5dE09IzN2dXKBZ8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/virtual/
+ IVirtualCreationNode.class
+SHA1-Digest: sOOS8kUYUd2QMvXYS10g9UHTccE=
+
+Name: icons/view.gif
+SHA1-Digest: eCgF5q1YzSP3U0KH++DrZRNKRWk=
+
+Name: icons/filter_decorate.gif
+SHA1-Digest: l8d/i+qNzdz/RjeZDfSukXdUBSQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IFilterNodeDecorationService.class
+SHA1-Digest: lUV45FGBqni2GTGJFCmTRsULkHo=
+
+Name: icons/pkColumn.gif
+SHA1-Digest: fPl3ZYs6gSddmmQobsU5ugrFDSU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/widgets/
+ DataContainerSelectionGroup.class
+SHA1-Digest: oYx6aBvNJ8ANeEDij4DT7WSGCHU=
+
+Name: icons/stored_procedure.gif
+SHA1-Digest: qxaUBx4HOzVKiR4h6PXnQ2P3Rvk=
+
+Name: icons/filter.gif
+SHA1-Digest: ngfJGJ/lz7Cm/kX5JfpR2rcfKXc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/LabelDecoratorPreference$2.class
+SHA1-Digest: uZzFFQOeFodDXCclobPyw+JNeVg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IGroupNode.class
+SHA1-Digest: esJDJi+4hDTuOcYw9QoI8TvvwX0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IMarkerNavigationService.class
+SHA1-Digest: YaEXM0aV1rXWDMHjnd9oUp2PxfQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/Ele
+ mentIDUtil.class
+SHA1-Digest: R4+d3XZVQfMdjUL+rNCG5ae+0Js=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IUDTNode.class
+SHA1-Digest: XmFdWOuCoX18yRVX1kreFvVQtNo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/DefaultTableFilterPropertyPage.class
+SHA1-Digest: oYXEqeNq85fx9+GgdIvef3BWR8g=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/widgets/
+ DataContainerContentProvider.class
+SHA1-Digest: K+jDx1J+q16zLz1j8C3+RafoTqs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/widgets/
+ DataContainerSelectionGroup$2.class
+SHA1-Digest: raBeD7Un3xP9zZ38WTCj7QEs45Q=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IColumnHelperService.class
+SHA1-Digest: pQswABnXxvBT9fa3f8YB9/mfQ0s=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ FilterListSelectionDialog$ListSelectionFilter.class
+SHA1-Digest: KFC6xlbU50BYZ0aGDtyOBrGOGZk=
+
+Name: icons/user.gif
+SHA1-Digest: 2qH2FYnLS7h7deru5DkuQeV3/ks=
+
+Name: icons/select_table.gif
+SHA1-Digest: qVqSZWTjsQR4zb58Mg6hCp7/GmE=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnTable$2.class
+SHA1-Digest: VcrUh+HpcKDUBLYjtzDDe81uI9Y=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$4.class
+SHA1-Digest: Sz18GWnnpy8FEReybb5arEgQTtU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/DependencyNode.class
+SHA1-Digest: 2DNOCQKkvLeRFREzYjcIob+oN+4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ConnectionFilterPropertyPage.class
+SHA1-Digest: Dn0YL0gBlhmESbAPuCmR93tIJnA=
+
+Name: icons/new.gif
+SHA1-Digest: m77WU2Fc0pU7sEW6fm5Wdj7McNs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/DependencyDecorationService.class
+SHA1-Digest: 43YjCOdrEjLPCJoJDzBt6juVEiw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IKeyNode.class
+SHA1-Digest: G73S07uD4taIqaOKGd5RIyu/eYo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IRoleNode.class
+SHA1-Digest: wOndjxpvXjebJuy1Dejht3UPrpc=
+
+Name: icons/filter_wiz.gif
+SHA1-Digest: NzTM8P62X3HexIVvip400tbhErc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/ConstraintNode.class
+SHA1-Digest: kXSUauLLC/0bvjWzStVVObUKa/8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/ISequenceNode.class
+SHA1-Digest: 3+rgpZKp+R/M9ktek9ZYeSRAFBc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/ColumnDecorationService.class
+SHA1-Digest: 5ZUeG+OOL1N4FwGom7HSUc0rKao=
+
+Name: icons/server_explorer.gif
+SHA1-Digest: TL9BgbKG26QcDGyZS5BwgL3JEE0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IColumnDecorationService.class
+SHA1-Digest: KG+a/llye4EoSpBdFhEJe03VxGw=
+
+Name: icons/loading3.gif
+SHA1-Digest: n1Q61GkVzHyeLVsa+Rw1BL335Vg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/package.gif
+SHA1-Digest: 2aa7lPW/iscNvEXxvHTvmihU8N0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /helpers/TriggerHelper.class
+SHA1-Digest: zDBFeNsGw8p1x3L3J85Gh/NdGtI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/Cat
+ alogTaskLabelProvider.class
+SHA1-Digest: mJCZidCHpMxaaVO8zf4LKaPpPsU=
+
+Name: .options
+SHA1-Digest: q2TTrZu4Ju0mycAm6qZ6OuZ2fSE=
+
+Name: icons/pkfk_rdbcolumn.gif
+SHA1-Digest: oyc5XNgXACtxjG/oVgO6R2WWQR0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/SequenceNode.class
+SHA1-Digest: 6pJ57yA9thMh0dJFe5ud53PeeXM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/IFilterNode.class
+SHA1-Digest: C6nPrFMnDWt//cKMtQAlrU+m8Mg=
+
+Name: icons/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$1.class
+SHA1-Digest: XKYb0Y+/99g1g6CsGFgSK7IPC9A=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/label/UserSelector.class
+SHA1-Digest: FczF5IH5Baz8uPVe56EYOVrD0Pg=
+
+Name: icons/refresh.gif
+SHA1-Digest: VHUDPMiwiKJcwN0BG7ABhxxFfrA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/UserNode.class
+SHA1-Digest: TymqJHYv6yxQBqi25iUzh87gErY=
+
+Name: icons/columns.gif
+SHA1-Digest: n9TREcLGYUjGue/uJsGgQmqD08o=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/SchemaFilterPropertyPage.class
+SHA1-Digest: WQ/lpc2lfaxFl7mVfTvEUwvmD0I=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /helpers/IndexHelper.class
+SHA1-Digest: d70i4tTlvPqi8yuAX5FvoHl5rSc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/VirtualNodeServiceFactory.class
+SHA1-Digest: N+hn4yMRTjCVqx6qVdioZPc6y88=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/Ecl
+ ipseUtilities.class
+SHA1-Digest: fNkYuTl8L+WCLHX//oaJDAPQiAQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /DataToolsUIServiceManager.class
+SHA1-Digest: JPlUusFdJBo4eZE/K0Mc5FEsPK0=
+
+Name: plugin.properties
+SHA1-Digest: fi6CgVhFHi5zfgLdaCP3z0pEEWE=
+
+Name: icons/sampleContents.gif
+SHA1-Digest: kyMoKV8qc+zGSf8LrRd2CEb7XWk=
+
+Name: plugin.xml
+SHA1-Digest: 9zg4uf0eHvlp9sDQ/t0bIes5ERI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/label/AuthorizationSelector.class
+SHA1-Digest: nrO5imbNVgkpZD2bx8B1guY6/BI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/ForeignKeyDecorationService.class
+SHA1-Digest: pEPi4CQyMuaREMcRgD3Oxu5VXZc=
+
+Name: schema/markerNavigationProvider.exsd
+SHA1-Digest: SfL4fw88Rp9WgxrO+75RSwP6gSo=
+
+Name: icons/disconnect_server.gif
+SHA1-Digest: mD23+0ZSczyVvlEVJR1FnZdTkF0=
+
+Name: icons/primaryKey.gif
+SHA1-Digest: n/Bsvn5ZLXefrhGxAW6Rk7genD8=
+
+Name: schema/elementID.exsd
+SHA1-Digest: VpG3dnfbvokmMSfjbgX2iMcTb4A=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ ResourceChooserDialog.class
+SHA1-Digest: HwS5tpmjvRIefs1HktK6pxx0aJ8=
+
+Name: icons/sequence.gif
+SHA1-Digest: fo/7N7b3A3aP95gnIqNfAvlOzlc=
+
+Name: schema/addObjectProvider.exsd
+SHA1-Digest: RjfQk56K59W6YfW9vHzRU8mGSbk=
+
+Name: icons/table.gif
+SHA1-Digest: isFD4fljeccPdl3UO8sVIOQLero=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/LabelDecoratorPreference$2$1.class
+SHA1-Digest: w2dzQfwB28CR1VGD5P1gC+PpJ2A=
+
+Name: icons/filter_wiz.png
+SHA1-Digest: Q8RNWsVrFdqZ6smUSNBYMTRLiVY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/ITableNode.class
+SHA1-Digest: QzT7C4mtTeiQiqoqf5ka881eSvw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /services/IVirtualNodeServiceFactory.class
+SHA1-Digest: ZIqnS+WD7AdvjRw9AA8dV5J6b3M=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IIndexNode.class
+SHA1-Digest: yWGGzedRige+/8CfTe1Bqf89OSY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/services/ISorterV
+ alidatorProvider.class
+SHA1-Digest: bHuIBQNrWI5i39eWWK1CpUrofSo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/CreationInfoRegistry.class
+SHA1-Digest: rT77Ebv2RpbUE+2J4e5tB8icVoU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnTable$4.class
+SHA1-Digest: MJqGVrbzzbUzQOUCIxEVDo4ki1A=
+
+Name: icons/edit_server.gif
+SHA1-Digest: IjIlxd3Avm59b5kFAckHyhhJ0xA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/mo
+ delToDatabaseWizard.bmp
+SHA1-Digest: U2pJTLppKFY+x711Btt2db2SNhs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$6.class
+SHA1-Digest: DSKE8yqpiUu+LWQTb1EwQRpLXE0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/OutputPreference$1.class
+SHA1-Digest: 3w9fZqeSG4+wiAUy39sTdrNdVIs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/UDFNode.class
+SHA1-Digest: ApbLNiBPcAn8MopaSPHCeKftgPI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /popup/providers/AbstractSubMenuActionProvider.class
+SHA1-Digest: iNgYyfjpLd3XvnUj+vER0pkXM9k=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/da
+ tabase_32.ico
+SHA1-Digest: /abqIO5TKEpcRdiVthYdxIwwxz4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/GroupNode.class
+SHA1-Digest: BFCiesWrrholRjlgy9ejuRbetp4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /LabelService$LabelInfo.class
+SHA1-Digest: 1m8vtGKIkUb+XtKCJR7x4/9Emd0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/AbstractDecorationService.class
+SHA1-Digest: g2FmWXrtZf8+DueV3eCVWiIKmUs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ConnectionFilterComposite$1.class
+SHA1-Digest: i+RY9FQazVbuAiMmYkLexsQX3dc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ FilterListSelectionDialog.class
+SHA1-Digest: MT9MV+186ptS/K0HAiH/jGTdXQM=
+
+Name: icons/view24.gif
+SHA1-Digest: j4shUlZ0YQ8cloL5Fp6JGw+9sMY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IDecorationService.class
+SHA1-Digest: V1RtAvKzRSl9SfsHhLTgFP9wdxc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/LabelDecoratorPreference.class
+SHA1-Digest: AyIX9/xhI61Q10125hGhlqlNpJE=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /helpers/ColumnHelper.class
+SHA1-Digest: 5prgj8WVtNdliCly0ZmQa7gJIII=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/ViewNode.class
+SHA1-Digest: It1tjlJln224qRWpyfgTo9WZ3XU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/l10n/dat
+ atoolsCoreUI.properties
+SHA1-Digest: fmPDcuuDE07A6IaBJOxvwJ9TXEs=
+
+Name: icons/udf.gif
+SHA1-Digest: orJXcGGiOTvCgdC/5VJC6ld3b58=
+
+Name: icons/trigger.gif
+SHA1-Digest: 1ZFcpcwH/UrLlj1BBAUtHA+o0b0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/services/IDataToo
+ lsUIServiceManager.class
+SHA1-Digest: MS8y1jfEAaoj1FAXd8ZSiaf6CN0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnLabelProvider.class
+SHA1-Digest: pl3M6c5GlOgB4nHfUEgc0q0gun0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ FilterListSelectionDialog$2.class
+SHA1-Digest: 4YR7QNfBKa6+0IAhQIsA0iwSgqs=
+
+Name: icons/group.gif
+SHA1-Digest: HmDLZL2v7wNLRWjcnvt4Xn6dsj8=
+
+Name: icons/loading2.gif
+SHA1-Digest: 4Jv1AWYbkbWzbxmHVhW3Y0qcvQ8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/AddObjectRegistry.class
+SHA1-Digest: e/3M9cQHwWhOPL5P+Os153UfChQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/LabelDecoratorPreference$1.class
+SHA1-Digest: nyObB1GQzbcrpTGavI8JGYhk6vE=
+
+Name: icons/closedFolder.gif
+SHA1-Digest: eW+ZLeJN0550GoYAt57aIYwOrTc=
+
+Name: icons/save.gif
+SHA1-Digest: 3+EIUccv73+yTwreQZpoMI0HoA8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/DefaultSPFilterPropertyPage.class
+SHA1-Digest: e+S0bqtVTNpfe8pkJ9EvJG5UVts=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /helpers/ForeignKeyHelper.class
+SHA1-Digest: 99x+/liWKx/JVQ/ceTLhGoHl60E=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IIndexTriggerDecorationService.class
+SHA1-Digest: v2MnUyy+m8wJz7ixq/r2zobqJMA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/cr
+ itical.ico
+SHA1-Digest: f5G2jGbzQEpyHNSGp6i9JU3FFKg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/widgets/
+ DataContainerSelectionGroup$1.class
+SHA1-Digest: o2jlSVaUAEf+aa1uDtWx+OmKqXc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /MarkerNavigationService.class
+SHA1-Digest: o5slLdjNbFWzuXPVy8DRZQNbo2Y=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnTable$1.class
+SHA1-Digest: N8EmYaC6/oEYS9JFZ2mpiETI5XI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$3.class
+SHA1-Digest: Onvyp7gkfcmDvBK8ONiY/vr5hgc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/FilterNodeFilterPropertyPage.class
+SHA1-Digest: /susD+8UMQ4GIXxAeKG4Tg4bh5E=
+
+Name: icons/reverse_engr.gif
+SHA1-Digest: 6b17S5BzpOn5Gf6oTx/COoRyj1s=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/FilterUtil.class
+SHA1-Digest: hMX7gTXQ1tB3nKh2C0hxsrRFlzI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/ICatalogNode.class
+SHA1-Digest: jtP6j63btlAIeMj85GfGY+cHFZ4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/ColumnNode.class
+SHA1-Digest: GJjaW38bJv2SIeIQhapKlwTXrec=
+
+Name: icons/connect.gif
+SHA1-Digest: VfYYGpE7QedFIAao+IXviaAujIU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IMarkerNavigationSelectionProvider.class
+SHA1-Digest: se6dbDpkHKIvkJ5B+BQuHfLdem8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/FilterNodeDecorationService.class
+SHA1-Digest: qh9qlrSW1AIU7MHeGK70JKDkksw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/CatalogNode.class
+SHA1-Digest: +lV+bYUrBhz3aLo6ug3zi6AKQBY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/IConnectionFilterProvider.class
+SHA1-Digest: CF4UXOEKA4s+9e9s9qq2vGQ8JgQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IDecorationService.class
+SHA1-Digest: XXVoFP5kyPyhVBzc5IFIvPwTtGk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IElementIDProvider.class
+SHA1-Digest: dBICaRHDvHVoBtUAE5/xnUjPATE=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IExplorerSorterService.class
+SHA1-Digest: pT2PPzamSROXbMj5HEbKr410qwE=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/OutputPreference.class
+SHA1-Digest: kB6n6swk09nDH/1LNJBcLA1fn9E=
+
+Name: icons/domain.bmp
+SHA1-Digest: nukxCGNJysj0ll54RCHCspqf7eQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/VirtualNode.class
+SHA1-Digest: nsxfT1jKUWIVXcJUvj0lukdxtS0=
+
+Name: icons/connection_wiz.gif
+SHA1-Digest: IPrXzYokzOkAgeAm83h1OaD/dEw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /ILabelService.class
+SHA1-Digest: zBvaslN40CpIBMdh/QjwslbAZgU=
+
+Name: icons/generate_ddl_wiz.gif
+SHA1-Digest: PL5w93eHwrtH28xPuXpDBht+0nU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/BookmarkDecorationService.class
+SHA1-Digest: rKOUJAhG5cAqtv9Y16y/f8N4WMg=
+
+Name: icons/dependency24.gif
+SHA1-Digest: Yxs1yqacAyY66X65/QoK/fJvDk0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/virtual/
+ ICreationInfo.class
+SHA1-Digest: dxjTJ4ceabbygdKmVWTrGy3qbUE=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /LabelSelector.class
+SHA1-Digest: IPzC1rFaUlOfwECZ5+uNZyx4Ksw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /popup/providers/AbstractActionProvider.class
+SHA1-Digest: oOJ5/OJM0muAZhrAE0QqR5x22Fo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IDependencyDecorationService.class
+SHA1-Digest: DnI9rWnWSL52XHyCwQAlq8ZSZhg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /LabelService.class
+SHA1-Digest: xitHGy3MBRtVeSAFQVzJa+62h1k=
+
+Name: schema/filterInformation.exsd
+SHA1-Digest: Fb1fs6fwlhjBhpXzr5GzwAzIkjo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/UDTNode.class
+SHA1-Digest: RxHKBrGEHDZS7VOTBKsbvYALPSM=
+
+Name: icons/pkfk_decorate.gif
+SHA1-Digest: 8DQ1a6HrNuEuAI6L59dwDs5hXV8=
+
+Name: icons/sample.gif
+SHA1-Digest: ra58H6nanR7T5mUrbsVyw7ZSDFY=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/TableNode.class
+SHA1-Digest: Z8oN+igzph2VVUi7JO6YpDL/8Ck=
+
+Name: icons/connectionFolder.gif
+SHA1-Digest: ymOTel9srYdhAPbaIBCIgK8Zmec=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/IndexNode.class
+SHA1-Digest: RKHz3/Mh3Crx/ySF1aFNMfcqobI=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IUserNode.class
+SHA1-Digest: SU7uUfyBUnSMXgfvsDpDWPj5YGk=
+
+Name: icons/loading1.gif
+SHA1-Digest: lqW7fLOt+AwbryxOw078GlERM28=
+
+Name: icons/role.gif
+SHA1-Digest: VFsmzJALHIU1W1wobLMrMekIuew=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnContentProvider.class
+SHA1-Digest: irftiXlmkN+4VE6wEfAyKr4HGz4=
+
+Name: icons/database.gif
+SHA1-Digest: 7jOWSk6JawO/fAbC1IPxp5EzvmM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/IndexTriggerDecorationService.class
+SHA1-Digest: sYRmsASY6GFOEquB29kEhrRw6wc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/RoleNode.class
+SHA1-Digest: fXUbb3Zl/PSjeKabK//oioU4ZTw=
+
+Name: icons/fk_decorate.gif
+SHA1-Digest: kNXz3JFLXfem1C1K94tBWcYuGGQ=
+
+Name: icons/nullColumn.gif
+SHA1-Digest: sZGvVUOQIslgkyjFbQ5x15qsNrQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/preferen
+ ces/ColumnDecoratorUtil.class
+SHA1-Digest: wdl03vjffY+dmaNiJAGLleaoYfo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IColumnNode.class
+SHA1-Digest: zRY8PmABuyh4sXfX0Ydi6vDobQg=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/RDBCoreU
+ IPlugin.class
+SHA1-Digest: 1dpDvYbhe1Grcpce4cln778ynmQ=
+
+Name: icons/domain.gif
+SHA1-Digest: DIQI2D7Kf05Pt/LG6hlzxG9bBPA=
+
+Name: icons/fk.gif
+SHA1-Digest: x5ofJaiaEOCQhIk26drO4AQqqH8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnCellModifier.class
+SHA1-Digest: JpjRrhnkWt+L4oi3KBNq63r2rvA=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/icons/Im
+ ageDescription.class
+SHA1-Digest: 6YmYwH6EZctOtL7CnGiM5nOolyw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/ColumnTable$3.class
+SHA1-Digest: OeN/IL++Rf5CyU9/vjPz1+gRhXs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IAuthorizationIDNode.class
+SHA1-Digest: Uo9a3L82B1A3cTP9R/2lCUEnbCo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$5.class
+SHA1-Digest: p+v85aK5oshfIhc9q2t+s4RmfLw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/services
+ /IForeignKeyHelperService.class
+SHA1-Digest: aZdw44FE0vJjcd2lNQwAQ8Agvo4=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IGroupIDNode.class
+SHA1-Digest: LUKNhS8BW/aMwLvpEUc2a00+fsk=
+
+Name: icons/dependencyFolder.gif
+SHA1-Digest: 3VSnMiTXf2jrAZwKTnNW2GOCHSQ=
+
+Name: icons/constraint.gif
+SHA1-Digest: Eb2u1t3KI7QFsik6DpMi2aqkWWg=
+
+Name: icons/parameter.gif
+SHA1-Digest: jUb5Pr9jgKCDMusov3VWa7ncJws=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/ICreationInfoProvider.class
+SHA1-Digest: 3REFbH9o1SdMKZFLsrom6NYyRxk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/DefaultFilterPropertyPage.class
+SHA1-Digest: eE+aFChptaQLz3HhDz93Z+ZWss8=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/SchemaNode.class
+SHA1-Digest: rnIC7g4gEjuPpmAD8Kth08rwNdM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IStoredProcedureNode.class
+SHA1-Digest: xfn2zC6q/v9t1VtZdPRbNb4RWjM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/impl/AbstractDecorationService$1.class
+SHA1-Digest: 4AM3yVFtuS/amAvySluRdolWSJU=
+
+Name: icons/generate_ddl_wiz.png
+SHA1-Digest: K/dxEifXSS/OlQfX7sRvoCWJ5V0=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/AuthorizationIDNode.class
+SHA1-Digest: NEK7nVG/868+gQgKzEma5qmMKjo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IUDFNode.class
+SHA1-Digest: 71l25QK2XzVs2yDg/jHPdHYk6kQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IDependencyNode.class
+SHA1-Digest: O3VzShTN6hee4SmZOF1mNUcDbMM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ FilterListSelectionDialog$1.class
+SHA1-Digest: g5jbh+8toYt6bb3O/eg8xUjaMz4=
+
+Name: icons/bookmark.gif
+SHA1-Digest: LtX6Y0SvoF7xBMtRsvZXKpqnDvM=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /services/IExplorerInteractionService.class
+SHA1-Digest: XthF/NyIExQDZHXYHcePUtRTjcw=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/util/res
+ ources/ImagePath.class
+SHA1-Digest: aRjy5D2SgBKwQRVOKXXX1vFiE8c=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor.class
+SHA1-Digest: yFIbsmAMm67iRTa7D0BxHH/Oazo=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/provider
+ s/content/virtual/AddObjectRegistry$1.class
+SHA1-Digest: k4SCg87+Os1IWdHPLZBQeucyWpk=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/IHelpCon
+ textsSQMCoreUI.class
+SHA1-Digest: 10dnAnAvSPgmGoJF73S8sqUKxWQ=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IConstraintNode.class
+SHA1-Digest: yAocsur60hM6BL/CztOEMo4IOGE=
+
+Name: icons/table24.gif
+SHA1-Digest: zvB+d1X20+SXrOPw3LUS0q5vPUc=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/filter/C
+ onnectionFilterWizardPage.class
+SHA1-Digest: 417Cb77dkOPS4RIgU5T7Upk2fFs=
+
+Name: icons/index.gif
+SHA1-Digest: 1thX8ZxAcnqGaC6L2rcFWDj1m6E=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/ui/explorer/virtual/
+ IAddObjectProvider.class
+SHA1-Digest: DhX/QJRg/QzCQbElAuhcm9/aGMs=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/dialogs/
+ ResourceChooserDialog$1.class
+SHA1-Digest: ZLfJdU6RygK24HfVzNh/CINP8e4=
+
+Name: icons/fk_rdbcolumn.gif
+SHA1-Digest: /4F3Z5yV3ti20gBLP4vjlEtYk1k=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/content/virtual/StoredProcedureNode.class
+SHA1-Digest: J2vNOR5eSm4M3LKMxjsrE4AM+NU=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /filter/CommonTableCursor$2.class
+SHA1-Digest: EGsXRYQIASHTDq4o3bYncdkBaEc=
+
+Name: icons/nullColumnDecoration.gif
+SHA1-Digest: QOG1fjNAL+K5coNbVlBH10gOsYE=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /virtual/IViewNode.class
+SHA1-Digest: PmElZEEYtmlcvvAyeExJL3Y7M84=
+
+Name: org/eclipse/datatools/connectivity/sqm/core/internal/ui/explorer
+ /providers/decorators/IBookmarkDecorationService.class
+SHA1-Digest: AYAa+UET95VkrDrrNySi+zJBNJg=
+

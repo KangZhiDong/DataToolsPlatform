@@ -1,0 +1,274 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.datatools.modelbase.dbdefinition; sin
+ gleton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.2.0,3.0.0)";v
+ isibility:=reexport,org.eclipse.datatools.modelbase.sql;bundle-versio
+ n="[0.9.0,1.5.0)"
+Bundle-Version: 1.0.2.v201107221519
+Export-Package: org.eclipse.datatools.modelbase.dbdefinition,org.eclip
+ se.datatools.modelbase.dbdefinition.impl,org.eclipse.datatools.modelb
+ ase.dbdefinition.util
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/util/DatabaseDefini
+ tionSwitch.class
+SHA1-Digest: tVvPOLfNt4NBe21YzrfblOCqgHk=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/FieldQualifierDefin
+ ition.class
+SHA1-Digest: 8kn0ENzvQv7CqRIyBxz99VNqlNM=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ParameterStyle.clas
+ s
+SHA1-Digest: hLitJAs9VDx3gngRwQbYjoLd0xE=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ColumnDefinition.cl
+ ass
+SHA1-Digest: z/Kst5+jDUCOT+NFVDDlnZkxywY=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/LengthUnit.class
+SHA1-Digest: jzrppxeN3oly1SC+yx8hD9Ld5us=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DefaultValueType.cl
+ ass
+SHA1-Digest: bTpF4GT4TFBeqdmUL6LW4qkAoxo=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/QueryDefinition.cla
+ ss
+SHA1-Digest: 5AyKHT5JFsha80H+rZdKph3o55A=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/TableSpaceDefinitio
+ n.class
+SHA1-Digest: 4FsoS/BlDv96Hjp7VxVrq4iOUf8=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/ExtendedDefini
+ tionImpl.class
+SHA1-Digest: FAJdgImC0ixz8Z6TYpvvD3xq8/E=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DatabaseDefinitionF
+ actory.class
+SHA1-Digest: JPVYS3TuAsTO97qBvYI6KUtKSHc=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/DatabaseDefini
+ tionFactoryImpl.class
+SHA1-Digest: +dhTbyzDX3etGS0YG9r6jNXhMYk=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ParentUpdateDRIRule
+ Type.class
+SHA1-Digest: FBJfCVLa2hBVeVL7ZUfkTY0v/g8=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ConstraintDefinitio
+ n.class
+SHA1-Digest: i/oNLN5uHIToPtgmZfRNAK61Kps=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/TableDefinition.cla
+ ss
+SHA1-Digest: AeLxAZgz5MYKzff8RV4X1u7tBr8=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/util/DatabaseDefini
+ tionAdapterFactory$1.class
+SHA1-Digest: nwnexcnb5zu5KTRoS9ETKPPKW1o=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/SequenceDefini
+ tionImpl.class
+SHA1-Digest: SaDhdsxzFsj8SAeaKea7TlRa1bg=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/SQLSyntaxDefinition
+ .class
+SHA1-Digest: vZUe1DF8jNsGQeSn6rDit5Ux1dY=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/IndexDefinition.cla
+ ss
+SHA1-Digest: RnxEZYz1LyHJvw9wCqHSQ6pIf/c=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ConstructedDataType
+ Definition.class
+SHA1-Digest: CE1lJV+TJPt/ByAJ3GyMVE3PM4U=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/ConstructedDat
+ aTypeDefinitionImpl.class
+SHA1-Digest: Ib39TOoZE6JjyTTBE2UOitgHQ2w=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/NicknameDefinition.
+ class
+SHA1-Digest: 9LVzquhcb/rr1tjE8vWVi9C7z4Y=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/PercentFreeTerminol
+ ogy.class
+SHA1-Digest: XtkGRiSRmkeQLG1W8YMSfQd9txA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/PrivilegedElem
+ entDefinitionImpl.class
+SHA1-Digest: wmMbA8whiZ+pXzm3UjqfMsjjvhA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DatabaseDefinitionP
+ ackage$Literals.class
+SHA1-Digest: oEFOGKx3SXhziSkPglgpeqBLeBA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/LanguageType.class
+SHA1-Digest: +V7rPc9FPN7kpGBXPxQwzO9gLmU=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/TableSpaceType.clas
+ s
+SHA1-Digest: nPlzNIt1ulBoEQOOhWbBsBGEe9o=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/SchemaDefiniti
+ onImpl.class
+SHA1-Digest: RtvHSAQ2VWRKG3wvoJOZhc9YhGA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/StoredProcedureDefi
+ nition.class
+SHA1-Digest: KPEGCNuDnQ3NephFUo5P1CkEHfc=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/StoredProcedur
+ eDefinitionImpl.class
+SHA1-Digest: HTphXvWt7re7Xhc3dzTiyi4iiHA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/PrivilegeDefin
+ itionImpl.class
+SHA1-Digest: x2bdGP3pMbg8d6ZfodMrVs0JL78=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/DatabaseVendor
+ DefinitionImpl.class
+SHA1-Digest: EfgsFUwZeaJh540uJC6NEEUajCE=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/PredefinedData
+ TypeDefinitionImpl.class
+SHA1-Digest: UI+G85rOTkIec0RwNsDDNyR4EM0=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/NicknameDefini
+ tionImpl.class
+SHA1-Digest: MGxPUEm3+LstnBdSTpRkaNGZKtM=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/util/DatabaseDefini
+ tionAdapterFactory.class
+SHA1-Digest: gocPho+hsj8HzSv3CBOHboKiHIc=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DatabaseDefinitionP
+ ackage.class
+SHA1-Digest: ywYrOQqGPNBMgDQpnWabJJ1LbgA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/DatabaseDefini
+ tionPackageImpl.class
+SHA1-Digest: HjNfF6WXWNFU0HGLqxhmNkD3B4o=
+
+Name: plugin.properties
+SHA1-Digest: rYhs53OU6IGz8GLCrxIjJvZKiY0=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/QueryDefinitio
+ nImpl.class
+SHA1-Digest: osoHenn20PuXOlefGEgBoT6pMzk=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/TableDefinitio
+ nImpl.class
+SHA1-Digest: 9POloIN8jRcFm7iznVkk7FACSVg=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DebuggerDefinition.
+ class
+SHA1-Digest: aY2nxNCMlmy5ospDV512gp+t35A=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/SchemaDefinition.cl
+ ass
+SHA1-Digest: HdpwDDVYuSon9IFXN1wEi4fKNM0=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/SQLSyntaxDefin
+ itionImpl.class
+SHA1-Digest: d1jipjbPbodTV3nzRu/P7o8pBfo=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/DatabaseVendorDefin
+ ition.class
+SHA1-Digest: F5CbytR67DFgpXAUHGOXXWPhZPU=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/IndexDefinitio
+ nImpl.class
+SHA1-Digest: i9ZLKsesyoKQY7lHMu8H+kN18fI=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ViewDefinition.clas
+ s
+SHA1-Digest: q8Dm6nU/gAGSLGrWWH/dGWcPDeE=
+
+Name: plugin.xml
+SHA1-Digest: cUOuD/MFvtyyrnJwprnV8Wj4Rdw=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/UserDefinedTypeDefi
+ nition.class
+SHA1-Digest: jD3usDaQVYcOmFCW1PA2KN9l18U=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/UserDefinedTyp
+ eDefinitionImpl.class
+SHA1-Digest: Crc+G8smt1vKkpGfxZtlQT7rRC0=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/PredefinedDataTypeD
+ efinition.class
+SHA1-Digest: x5XdKrJwz4IRYHn9qjl1uxR4YDs=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/FieldQualifier
+ DefinitionImpl.class
+SHA1-Digest: duRJJbvGPPdPydR2NKzZwhpxL9w=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/ColumnDefiniti
+ onImpl.class
+SHA1-Digest: Xx7T6y95EiTN97rwFDYAxUQEN58=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/TableSpaceDefi
+ nitionImpl.class
+SHA1-Digest: QEsAmbGZOcBb2x4I/EGrRLBNde8=
+
+Name: about.html
+SHA1-Digest: iF3gxVRlaf51Lmh9sscsUMaGyhM=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/PrivilegedElementDe
+ finition.class
+SHA1-Digest: tb62dpOBP5MDXEQVHH6eT0wNjKw=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ParentDeleteDRIRule
+ Type.class
+SHA1-Digest: oKpU/PgBV++hH1B91/y+MZUnxtk=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ExtendedDefinition.
+ class
+SHA1-Digest: 7vlStLKgBxg899m41cCO2pIwdjA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/CheckOption.class
+SHA1-Digest: OWkz/HRSUNgvW45lrhZogAqlEvc=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/ConstraintDefi
+ nitionImpl.class
+SHA1-Digest: dgjeoIBf4GcutUtD3dlZp9nzakM=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/DebuggerDefini
+ tionImpl.class
+SHA1-Digest: ViGPiUhn87iOcC4ubRi23cf8rNA=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/PrivilegeDefinition
+ .class
+SHA1-Digest: aaHf4uy3y3Lnjf3o+yGFJdrHlqE=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/SequenceDefinition.
+ class
+SHA1-Digest: uqIirtx8TB7iMkAp0tTyrqJYUJk=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/ViewDefinition
+ Impl.class
+SHA1-Digest: nTeZvlPZDuPurzltZxhRjM1wYW8=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/TriggerDefinition.c
+ lass
+SHA1-Digest: nBgcTKJkxo8EhpFAwrjR0V++xs0=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/impl/TriggerDefinit
+ ionImpl.class
+SHA1-Digest: WH0a5PcljprisjAGt9AQEfhizjg=
+
+Name: org/eclipse/datatools/modelbase/dbdefinition/ProcedureType.class
+SHA1-Digest: fUfugSmw0opmtxWB16Yeh4OFoN4=
+

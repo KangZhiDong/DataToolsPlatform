@@ -1,0 +1,235 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.datatools.connectivity.ui.dse; single
+ ton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.2.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.core.reso
+ urces;bundle-version="[3.2.0,4.0.0)",org.eclipse.ui.ide;bundle-versio
+ n="[3.2.0,4.0.0)",org.eclipse.datatools.connectivity;bundle-version="
+ [0.9.1,1.5.0)";visibility:=reexport,org.eclipse.datatools.connectivit
+ y.ui;bundle-version="[1.1.1,1.5.0)";visibility:=reexport,org.eclipse.
+ ui.views.properties.tabbed;bundle-version="[3.2.0,4.0.0)",org.eclipse
+ .ui.navigator;bundle-version="[3.2.0,4.0.0)",org.eclipse.ltk.core.ref
+ actoring;bundle-version="[3.2.0,4.0.0)",org.eclipse.help;bundle-versi
+ on="[3.2.0,4.0.0)",org.eclipse.datatools.help;bundle-version="[0.9.1,
+ 2.0.0)",org.eclipse.help.base;bundle-version="[3.2.0,5.0.0)",org.ecli
+ pse.ui.navigator.resources;bundle-version="[3.2.0,4.0.0)"
+Bundle-Activator: org.eclipse.datatools.connectivity.ui.dse.DSEPlugin
+Export-Package: org.eclipse.datatools.connectivity.ui.dse,org.eclipse.
+ datatools.connectivity.ui.dse.actions,org.eclipse.datatools.connectiv
+ ity.ui.dse.dialogs,org.eclipse.datatools.connectivity.ui.dse.dialogs.
+ filters,org.eclipse.datatools.connectivity.ui.dse.dnd,org.eclipse.dat
+ atools.connectivity.ui.dse.views
+Bundle-Version: 1.1.5.v201212070447
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Plugin.ProviderName
+Bundle-Name: %Plugin.Name
+Import-Package: com.ibm.icu.text;version="3.6.1",com.ibm.icu.util;vers
+ ion="3.6.1"
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$1.class
+SHA1-Digest: c950cDeUc4EE+pkhUx3BhQ/neb8=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/filters/Profil
+ eCategoryFilter.class
+SHA1-Digest: 6YWKceRTlOKc954lWYTrxgVs78E=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$3.class
+SHA1-Digest: 9dlssUORBPQ3brxJ6hDJBraUbXk=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialog.class
+SHA1-Digest: V7YWute8+wz6/ayb4pzE1HXcgLs=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$5.class
+SHA1-Digest: bWFq9ayeOXDDyibxPK4tJl/Jao4=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$7.class
+SHA1-Digest: YQS9SSdgv3eYDD1Gaqxh2UH/xv4=
+
+Name: icons/new_repository_action.gif
+SHA1-Digest: ncX33Ta3o8K4toUqxRiN5SlflSY=
+
+Name: icons/full/clcl16/expandall.gif
+SHA1-Digest: Uq1zKzxBeHE6NJwB8lp8O86qAVY=
+
+Name: icons/full/ovr16/obj_ovr_error.gif
+SHA1-Digest: P6tABf1xezsyBapSVbypjgTECpo=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/actions/ShowCategoryAc
+ tion.class
+SHA1-Digest: mabKl7o7jlJKIJ0lKa+UWwBOxLI=
+
+Name: icons/full/elcl16/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onComposite.class
+SHA1-Digest: pYu/peL80CwiV1Y8rN/KyYwEOCs=
+
+Name: icons/full/clcl16/clear_co.gif
+SHA1-Digest: HvS35PEmGunIFT6uMbNvDE5gWqU=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialog$MyChangeListener.class
+SHA1-Digest: tXT3Cqv7NVvS0J883ExuibLMHNA=
+
+Name: icons/full/elcl16/clear_co.gif
+SHA1-Digest: /Jpbhq6Zuqwq6W2d0yH2+WqvkJ8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ExistingConnec
+ tionProfilesDialogPage.class
+SHA1-Digest: oed63pRvbhuGIUP2v0yyMoZt2gM=
+
+Name: icons/full/cview16/enterprise_explorer.gif
+SHA1-Digest: cqtIFjJQ8I3CSjG5Oa8DQj6NT7E=
+
+Name: icons/full/clcl16/remove_server.gif
+SHA1-Digest: P4BiFUa/G2S/t3p+sC/Wv3a0PdI=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onComposite$1.class
+SHA1-Digest: Zu7JfbJS2lJKDjTsqgFxfk3LbHM=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onComposite$3.class
+SHA1-Digest: UdnlfmD0Olq/LN0Yt9XP+sYAQMo=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/actions/SelectProfileA
+ ction.class
+SHA1-Digest: YIkW/RMm2+i5TCA07bso0z4EPkE=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dnd/ConnectionProfileD
+ ropAssistant.class
+SHA1-Digest: 7VouSG+A1wjyppDRikuEaj87jwU=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ExistingConnec
+ tionProfilesDialogPage$1.class
+SHA1-Digest: M1zRAupve32MiBVDPW8+5jLryUQ=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/filters/DownTo
+ ProfilesOnlyFilter.class
+SHA1-Digest: 0MxuHEX4k1VzKGsIOR8XQLCs2mQ=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$2.class
+SHA1-Digest: APlg3mg9T06pbXlp2PKmgq/Nljk=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$4.class
+SHA1-Digest: Rexq/Bnb9xLMWW8hTvWyInhoMKU=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$6.class
+SHA1-Digest: K3S4JxJ5zXXoMCkX+dz0CgI7dTE=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/resources.properties
+SHA1-Digest: MiGpZEOJRKi2lv436mvwSsFHybg=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$8.class
+SHA1-Digest: Vi5XR6aAvwqq1aPPBJAyw9lyfvs=
+
+Name: plugin.properties
+SHA1-Digest: h9uvrFrjkYYAHaqumJegwj+MXUw=
+
+Name: icons/full/elcl16/expandall.gif
+SHA1-Digest: Uq1zKzxBeHE6NJwB8lp8O86qAVY=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialog$1.class
+SHA1-Digest: vDB8cToyljuBO8p0x3lSpXw1p0o=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/IHelpContextsConnectiv
+ ityUIDSE.class
+SHA1-Digest: S7FE5I0CSGt7YvrBhOocvcjZ6QA=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$6$1.class
+SHA1-Digest: rVI6R1YR0Ep7g5aDq+sPUhOCxo8=
+
+Name: icons/full/clcl16/extensions.gif
+SHA1-Digest: Stz3OPkQtMPuCq2vHFlFNowZJ0M=
+
+Name: icons/full/elcl16/extensions.gif
+SHA1-Digest: Stz3OPkQtMPuCq2vHFlFNowZJ0M=
+
+Name: plugin.xml
+SHA1-Digest: uvXTrfOhwyXuiAKFXMrNCkO3Tt4=
+
+Name: icons/full/clcl16/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: icons/connection1_newwiz.gif
+SHA1-Digest: nSSbr6jBBKB4cUS1ycq+lJ+cAcg=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/views/DataSourceExplor
+ erView.class
+SHA1-Digest: lB0+EFy700FKxQ/oFvR94D/MnjE=
+
+Name: icons/full/dlcl16/clear_co.gif
+SHA1-Digest: dg0q4bQ+hk8bRAobdz7Ndag/3Ro=
+
+Name: icons/full/clcl16/add_server.gif
+SHA1-Digest: bjppvH0dXDQpyW/y1Y2Svx4pDMI=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/DSEPlugin.class
+SHA1-Digest: Hf2Y/ANAu9wX8EigZBqeT2JiqCE=
+
+Name: icons/full/clcl16/import.gif
+SHA1-Digest: SH2O1I2SPd+x8io/eDY/66IoJbg=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onComposite$2.class
+SHA1-Digest: zca1OX4eXGwZF1AFZIR57dEmzvA=
+
+Name: about.html
+SHA1-Digest: iF3gxVRlaf51Lmh9sscsUMaGyhM=
+
+Name: icons/full/dlcl16/expandall.gif
+SHA1-Digest: DiYk1S4/MCD3zNlTqMJxP4WL534=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$ConnectActions$InternalDisconnectAction.class
+SHA1-Digest: JZa0wCbLWq49yx+bjkN5zyNEnBU=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ConnectionDisp
+ layProperty.class
+SHA1-Digest: uXVoXri7Xoo3LFbuHGiSGMwBxZQ=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$ConnectActions$InternalConnectAction.class
+SHA1-Digest: QPffgVCBbrOwV9N1mpLiZlS8zog=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage.class
+SHA1-Digest: 7YhdUUSuuNcDUtdlEE7Am0Zr8/4=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onDialogPage$ConnectActions.class
+SHA1-Digest: 3ISVMiP2CmQp/CDEXRDwPSGU+ZI=
+
+Name: icons/full/clcl16/export.gif
+SHA1-Digest: k5cSNprokVwZDdoOByd+ROH0iQM=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dialogs/ProfileSelecti
+ onComposite$1$1.class
+SHA1-Digest: oMuSLP85Fv5VVlD1FEtXFbryiW4=
+
+Name: icons/full/dlcl16/collapseall.gif
+SHA1-Digest: EN6RuFqPlyvDFFYtWeaHigGxVBI=
+
+Name: org/eclipse/datatools/connectivity/ui/dse/dnd/ConnectionProfileD
+ ropAssistant$1.class
+SHA1-Digest: rdUTS75zdaYoTSawq0JIMcZ82QE=
+

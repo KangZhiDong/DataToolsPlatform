@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.datatools.enablement.mysql.dbdefiniti
+ on; singleton:=true
+Eclipse-LazyStart: true
+Bundle-Version: 1.0.4.v201109022331
+Bundle-ManifestVersion: 2
+
+Name: runtime/vendors/MySql_5.0/MySql_5.0.xmi
+SHA1-Digest: td/gJMOGuqKdUDoNnNBSgYjnSsY=
+
+Name: runtime/vendors/MySql_4.1/MySql_4.1.xmi
+SHA1-Digest: MhgBnNWZnH7RXYdf23fcXRMyfvg=
+
+Name: runtime/vendors/MySql_5.1/MySql_5.1.xmi
+SHA1-Digest: WTWf8WXCcj6xHpMdEHvoud87Lio=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: plugin.xml
+SHA1-Digest: C3ZkR3KHpKBysKQ/OqcO30pMTHk=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: runtime/vendors/MySql_4.0/MySql_4.0.xmi
+SHA1-Digest: D8XqEysGJyMqu0iLuAK3EOJUCPk=
+
+Name: plugin.properties
+SHA1-Digest: A/t3Mm+OE+Otjnc42oM553DL/FM=
+

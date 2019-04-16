@@ -1,0 +1,1136 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.datatools.modelbase.sql; singleton:=t
+ rue
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.2.0,3.0.0)";v
+ isibility:=reexport
+Bundle-Version: 1.0.6.v201208230744
+Export-Package: org.eclipse.datatools.modelbase.sql.accesscontrol,org.
+ eclipse.datatools.modelbase.sql.accesscontrol.impl,org.eclipse.datato
+ ols.modelbase.sql.accesscontrol.util,org.eclipse.datatools.modelbase.
+ sql.constraints,org.eclipse.datatools.modelbase.sql.constraints.impl,
+ org.eclipse.datatools.modelbase.sql.constraints.util,org.eclipse.data
+ tools.modelbase.sql.datatypes,org.eclipse.datatools.modelbase.sql.dat
+ atypes.impl,org.eclipse.datatools.modelbase.sql.datatypes.util,org.ec
+ lipse.datatools.modelbase.sql.expressions,org.eclipse.datatools.model
+ base.sql.expressions.impl,org.eclipse.datatools.modelbase.sql.express
+ ions.util,org.eclipse.datatools.modelbase.sql.routines,org.eclipse.da
+ tatools.modelbase.sql.routines.impl,org.eclipse.datatools.modelbase.s
+ ql.routines.util,org.eclipse.datatools.modelbase.sql.schema,org.eclip
+ se.datatools.modelbase.sql.schema.helper,org.eclipse.datatools.modelb
+ ase.sql.schema.impl,org.eclipse.datatools.modelbase.sql.schema.util,o
+ rg.eclipse.datatools.modelbase.sql.statements,org.eclipse.datatools.m
+ odelbase.sql.statements.impl,org.eclipse.datatools.modelbase.sql.stat
+ ements.util,org.eclipse.datatools.modelbase.sql.tables,org.eclipse.da
+ tatools.modelbase.sql.tables.helper,org.eclipse.datatools.modelbase.s
+ ql.tables.impl,org.eclipse.datatools.modelbase.sql.tables.util
+Bundle-ManifestVersion: 2
+
+Name: about.ini
+SHA1-Digest: Kbw8VVURMPPlyWAxu2p+g8HRurw=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/UserImpl.
+ class
+SHA1-Digest: sAnBFqR6nUTJzNBFM6ZzRngOET0=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/Constraint.class
+SHA1-Digest: mO6TJ4aud3OXp7+ao5NYF8E/pkI=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/ProcedureImpl.
+ class
+SHA1-Digest: tJ0s9uT2TA4V87joXYFv/MAs/ho=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/TableImpl.class
+SHA1-Digest: KItkFdpL54aY3uQKcgvGHvMPSaU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/util/SQLDataTypesA
+ dapterFactory.class
+SHA1-Digest: 19rjue80t49W+GDBJQuFWQSRvPM=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/SQLRoutinesPackage.
+ class
+SHA1-Digest: KjvXX8pBy8V/XoRhH9cnnfWXQOM=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/DoubleObjectPr
+ ivilege.class
+SHA1-Digest: wvfNIjZUJ+4i4pKesTFkLIMVBpU=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/SequenceImpl.cla
+ ss
+SHA1-Digest: vScaPCAt69xhCdcCc8PJxQ1OXEA=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Routine.class
+SHA1-Digest: 1YQwMTbLA5u8WvJwqFZmc/DbRF8=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/DataTypeImpl.
+ class
+SHA1-Digest: UUHaf98BN4EAt9KtWcaKbcV1h1I=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/ActionGranularityType
+ .class
+SHA1-Digest: t/UtOKthXvD/rtv7GoFa24AWfKk=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/SQLConstrai
+ ntsPackageImpl.class
+SHA1-Digest: SnQDbEbZcjRv110cnbzVr5tTYuY=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/util/SQLSchemaAdapter
+ Factory$1.class
+SHA1-Digest: JRh252Nf2K4AzxMV5m4N01iodfg=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/EventImpl.class
+SHA1-Digest: qhlqE95lt4Y5KCXfnuTiPBKiCwo=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$1$2.class
+SHA1-Digest: YoqWWjo0p3AnOYLAvCQWDyl5uv8=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/util/SQLAccess
+ ControlAdapterFactory$1.class
+SHA1-Digest: KR3El9Tgv/DgSjYI8q79jxHv3To=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/SQLRoutinesPackage$
+ Literals.class
+SHA1-Digest: pBsn1dKvHp0yEgrH+HtZDybaP1o=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ReferenceData
+ TypeImpl.class
+SHA1-Digest: qLdMeMo8vAFrm8gqsMFLNbcBv0Q=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Sequence.class
+SHA1-Digest: a73E+NPyKIbDoOFiCMnpJiAEJBE=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/helper/SchemaHelper.c
+ lass
+SHA1-Digest: G7nYXqokRNcIjQ3Aq9s8nlgawOU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/CollectionDataType
+ .class
+SHA1-Digest: tyT/4paSspIXJJ2Pr4JJbyvA5Gg=
+
+Name: about.properties
+SHA1-Digest: yek+71PGZeAh6ldk5rRLIUhhWsA=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/TableConstraint.
+ class
+SHA1-Digest: wgnkOquYO0fJdr8hcuJUvJQG/5o=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/helper/SQLObjectNameH
+ elper.class
+SHA1-Digest: 5GU8HVHAd0lW8ISdFHhMGlh5T7A=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/FunctionImpl.c
+ lass
+SHA1-Digest: wfeQ1zmOk2+tT5FeGhQgX7oewXI=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/SourceImpl.cla
+ ss
+SHA1-Digest: RjtV2zlfPzxfOv4/6xE1fsAX+0A=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/util/SQLExpressi
+ onsSwitch.class
+SHA1-Digest: qvfAnDc4KxNBW/eX2KdDSxokDJQ=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/BaseTable.class
+SHA1-Digest: TVcEy87aJOyaaJn391QphLhDsGE=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/TypedElementImpl
+ .class
+SHA1-Digest: Mt1GrKSvWcU9xI49iNFHsXdxN9A=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLStatementDefau
+ lt.class
+SHA1-Digest: KY82KmQbD9AhszsqwsVr3U9/Xm0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/BinaryStringDataTy
+ pe.class
+SHA1-Digest: K1b2v9hBVkpxufLXx2sVd43L8lk=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/IndexMember
+ Impl.class
+SHA1-Digest: N/CfkbSK8cxEnMmqeYqBiV642oA=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/StructuredUse
+ rDefinedTypeImpl.class
+SHA1-Digest: 1gXpm9W3Y1e8Z9fVkfshu8+/4JM=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/CharacterSetI
+ mpl.class
+SHA1-Digest: 2AnHUvNm8NEdNR0eKHhVZIpINwY=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/SQLDataTypesF
+ actoryImpl.class
+SHA1-Digest: FTMc+TXqBSLFZ7w9DM9jTXaP8lk=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/SQLDataTypesFactor
+ y.class
+SHA1-Digest: EdN2pgH7prH/6WBh1sIyteHh+uI=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/BuiltInFunction.cla
+ ss
+SHA1-Digest: Jg5Wg2emaIe8E8c8y8e3PpfEEPo=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/IndexImpl.c
+ lass
+SHA1-Digest: DdbhMXCZH07VqMFdu9yD6WaQylI=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/util/SQLSchemaAdapter
+ Factory.class
+SHA1-Digest: O7f0JoMZFZJbnCag222DAhKlIco=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/impl/SQLExpressi
+ onsFactoryImpl.class
+SHA1-Digest: q0Fj6+S/dsyammIH6KCYnCRF27Q=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/Table.class
+SHA1-Digest: j484BtNEPIn3/XzqgVeuUJEr7HI=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/util/SQLDataTypesA
+ dapterFactory$1.class
+SHA1-Digest: cE9yV0GIFk5J90Wu7svR1ocPA6U=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLStatementsPack
+ age$Literals.class
+SHA1-Digest: RGyLKkV8oQ1jvO46+5e4kJoM0kY=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/ForeignKeyI
+ mpl.class
+SHA1-Digest: 2IBfsWUkYqvGNvkybodAEOMf0No=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/DateDataTypeI
+ mpl.class
+SHA1-Digest: zx2nXyR+jP698fuCFRS07aLmL1E=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLTransactionSta
+ tement.class
+SHA1-Digest: FwLdE0ylhwcgAui9tlLLgGvnqQc=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/IntegerDataType.cl
+ ass
+SHA1-Digest: 70+mEisoZRLIr6sKUnRpjxSnbF8=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLStatementsFact
+ ory.class
+SHA1-Digest: 7bKpy9/LfbvRkDlTG1ridmeUwlg=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Database.class
+SHA1-Digest: Xgztb1qqKBoC1PH6IErTNfu1GsM=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/SQLObjectImpl.cl
+ ass
+SHA1-Digest: LDBUx0TgY/2iyJxj6hTotUm5e1A=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/AuthorizationI
+ dentifier.class
+SHA1-Digest: 2dIKA5pvTcY6PZKPP8nkejdlS2M=
+
+Name: model/SQLModel-Constraints.cat
+SHA1-Digest: HtSKYvjmuIUWFwGJJCxP8CDNCQ4=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/util/SQLConstrai
+ ntsSwitch.class
+SHA1-Digest: HlM+Rn67XEk/ut1UBJYA3+YUzmQ=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/SQLConstraintsPa
+ ckage$Literals.class
+SHA1-Digest: N3MQFNwmRVmqDg5eaWVB852Kmw4=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/SQLAccessContr
+ olPackage$Literals.class
+SHA1-Digest: JnoBF+CJ4RUVOy+/lnTvaJLGDb0=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/TriggerImpl.clas
+ s
+SHA1-Digest: udknwctrP+CLdvtUu2TeMmEY7cQ=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Function.class
+SHA1-Digest: EKdwxJ+MSkrjJPPSaG+m0yhi4u8=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Dependency.class
+SHA1-Digest: khSQVA5KzTt4uWurtrdTt/P90eM=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/ValueExpressionD
+ efault.class
+SHA1-Digest: FnBxZL9VhEoaLRFJMWZZMgmGIa4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/FixedPrecisionData
+ Type.class
+SHA1-Digest: XwPPBN7QUByxxvCkJ+lwyCuVssE=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/MultisetDataT
+ ypeImpl.class
+SHA1-Digest: 7P7RZ0H8aPbtTeacEpB0iU7v/b4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ArrayDataType.clas
+ s
+SHA1-Digest: qgp3RYsCqPUfJk/F2KWTDF17D3E=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/helper/ISQLObjectName
+ Helper.class
+SHA1-Digest: 78TDds5QeL/YspX10PnFJmZTO68=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/RowDataType.class
+SHA1-Digest: CtOLoeSlQFivqIz/pXMEC9rXOhg=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/DateDataType.class
+SHA1-Digest: gkH/kmEnNMBpkIdnyxqbJDzjEYo=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/util/SQLTablesSwitch.
+ class
+SHA1-Digest: w37HHhK2ckwYOcS3muutxRwrK/s=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/util/SQLRoutinesSwi
+ tch.class
+SHA1-Digest: IjUoheJp3WenkVIHtX5Zv9PZekQ=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/util/SQLConstrai
+ ntsAdapterFactory$1.class
+SHA1-Digest: loXgVGz3iaVB7K43Lcztz+mxbvw=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/SQLDataTypesP
+ ackageImpl.class
+SHA1-Digest: dOAzCKItR+UldgXxExUqfl4V7nY=
+
+Name: model/SQLModel.mdl
+SHA1-Digest: wzYMfyXSVPXmnaE0wjUZEoR+vo4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/SQLDataTypesPackag
+ e.class
+SHA1-Digest: g2nAYDBghsjIn/zV7u9FCTxGV7c=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l.class
+SHA1-Digest: Tum+PlgXShx41BbfAg6DW5Ky9Jc=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/StructuredUserDefi
+ nedType.class
+SHA1-Digest: h34gHJLgIEtP4Tf/ndXCZaXRprI=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ReadPermissionOpti
+ on.class
+SHA1-Digest: BXUBBO9LiY8xXkMTFh48oN2oGcM=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/impl/SearchCondi
+ tionDefaultImpl.class
+SHA1-Digest: na85kExhS3LjDHdtJqGk6N+MzUY=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/helper/DatabaseHelper
+ .class
+SHA1-Digest: wqV95BXD9lnQNradbwbiwpLBrEU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/UserDefinedTypeOrd
+ ering.class
+SHA1-Digest: BDiGmwgWjiCBuofJuidnlrL6fx0=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/QueryExpression.
+ class
+SHA1-Digest: H5Orjeuv3B+yNiuITtMznlzDmAU=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/impl/SQLExpressi
+ onsPackageImpl.class
+SHA1-Digest: CN0P7PCiSaJDqL8iUZOGBClKw9s=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/User.class
+SHA1-Digest: lbZM7HcmdDn6iZN4cpq96vdNWkg=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/SQLSchemaPackage$Lite
+ rals.class
+SHA1-Digest: PWlszU7joX8WegwHmMhFFwgNsfQ=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/ForeignKey.class
+SHA1-Digest: EUGT38ixofdIs2nmrDhw052BDvo=
+
+Name: model/SQLModel-Expressions.cat
+SHA1-Digest: hNRMmDlqw3c8zyfi9Vlt93npMXo=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/GroupImpl
+ .class
+SHA1-Digest: nguT+2R6Py4H1PljOZIV7Puo82M=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$2.class
+SHA1-Digest: ApAOYHZhwMRSMg6n455+szHRTno=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/UnlinkOption.class
+SHA1-Digest: H8v1LeBfHiQTPiRE03hFD2qg9BM=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/EModelElementImp
+ l.class
+SHA1-Digest: 8tVFHjKcu9H4rz4tPJ7PiFkTfB4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/UserDefinedTy
+ peImpl.class
+SHA1-Digest: 63RG7RtY2ybL0Xdwac4fXDTuvA8=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/LinkControlOption.
+ class
+SHA1-Digest: Q8JztMhoksgb608wfRGO3UUYXDc=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/UserDefinedType.cl
+ ass
+SHA1-Digest: gP9APiOil8rE87Uk9X9Pd50NVP0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/MultisetDataType.c
+ lass
+SHA1-Digest: lm88WKxo13B9SEOhrX/x8SNmgHE=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLStatementsPack
+ age.class
+SHA1-Digest: QY6XKmAYdfcWNEF2AoCasRwJGoE=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/IdentitySpecifie
+ rImpl.class
+SHA1-Digest: NIOyHEqAMB1g5oSomnSZz+lHnZQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about.mappings
+SHA1-Digest: koH7/yv9LkutC5UsRFbCqRa3O+w=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/WritePermissionOpt
+ ion.class
+SHA1-Digest: pX6O3r2efs5f1rZNh3ICkqcLNhg=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/ViewTableImpl.cl
+ ass
+SHA1-Digest: pDn489fDz+Wbvja/VVNMpXlBVZ4=
+
+Name: model/SQLModel.cat
+SHA1-Digest: I9XGGfjlywgdugnLTD5C1kd/EOs=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/UserDefinedFun
+ ctionImpl.class
+SHA1-Digest: hcZ2HSZfoBmfb+lOOSYnAw7tzFA=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLSessionStateme
+ nt.class
+SHA1-Digest: peEPLCcd2G45SHCyd4juzlGZts4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ApproximateNumeric
+ DataType.class
+SHA1-Digest: MGyeY/CXLACe0x3XgNfv9j8hdQo=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/SQLObject.class
+SHA1-Digest: dljQ1QAEU9cwsXmxGTZxAWQXujs=
+
+Name: build.properties
+SHA1-Digest: VHEjU+L5YEWYNcavT9V4XjDA9g0=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/IncrementType.cl
+ ass
+SHA1-Digest: WWWF/EaqUjxKQr0cCMu+pO5o51M=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLDataChangeStat
+ ement.class
+SHA1-Digest: 80CHsYk0AA08qgpHSOC83yFv0Cw=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/DataType.class
+SHA1-Digest: l+N81z5tgH+/qfSm4MZmkswkP0E=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/impl/ValueExpres
+ sionDefaultImpl.class
+SHA1-Digest: LEYteDQNrKztZAsIrmpOiIr8Lvc=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/util/SQLStatement
+ sAdapterFactory$1.class
+SHA1-Digest: /lCGvfR8i060nBsHdGHZF9P0n+c=
+
+Name: eclipse32.gif
+SHA1-Digest: TC1aERPmoyNdWkFeFsikkFv/a0c=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/PredefinedDat
+ aTypeImpl.class
+SHA1-Digest: UG8R9POFjQZQN2jjmv6tUlzyNW0=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Source.class
+SHA1-Digest: eHaYPvBKcK+loxvx/ocq5ABR7Bk=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/GenerateType.class
+SHA1-Digest: oP+ZkcdhQxq6I4uykUe9TMFeacc=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/IntervalQualifierT
+ ype.class
+SHA1-Digest: ka6imCG3ZLezJKCriYSKBDXcjSE=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/ObjectExtension.class
+SHA1-Digest: 2r8BkXtKj2PDkK40thBlQ9SjEKI=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/PrimitiveType.clas
+ s
+SHA1-Digest: /zQjSmEOP9HrO52TNWVq157scl0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/util/SQLDataTypesS
+ witch.class
+SHA1-Digest: 08mGF4YPsa6jQAngUxgjnCNlld8=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/DerivedTableImpl
+ .class
+SHA1-Digest: PIFbw4QnkeDe5Acw6M1yX2tyVRE=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/SQLSchemaFactory
+ Impl.class
+SHA1-Digest: 83n+e3GFN3ymdDyz7bBRU8wSW4A=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/SQLRoutinesFac
+ toryImpl.class
+SHA1-Digest: hxaf9AsT7A72I/epaDen6u4bnnE=
+
+Name: plugin.properties
+SHA1-Digest: kDRrperEsBfCFnWKa1p5XPsow8A=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/AttributeDefi
+ nitionImpl.class
+SHA1-Digest: IVxZW+fJRd6IIloWA3FMVz3+XWM=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/ConstraintI
+ mpl.class
+SHA1-Digest: KP2Q5m11HGUxZ95qqgj6SxYUZBU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/DomainImpl.cl
+ ass
+SHA1-Digest: /siy/8sVBcOeATZNtLVAOBDu4ao=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ElementType.class
+SHA1-Digest: gec2ajevW+WD1y5WZx4rPRzxNbs=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/Authoriza
+ tionIdentifierImpl.class
+SHA1-Digest: f8ZYjzXiqAfhyI36HKcNgk6fB34=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/CatalogImpl.clas
+ s
+SHA1-Digest: 1nBbodvbrZlNKui05Gp4YPj4SiA=
+
+Name: plugin.xml
+SHA1-Digest: X25p3ccGTCtKR7IYVnwP+wlY1Zw=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ConstructedDa
+ taTypeImpl.class
+SHA1-Digest: AFgZ1S40eaVf7jRLjJOtMEtNIqY=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/OrderingType.class
+SHA1-Digest: b72nFXsIZhopgO1Q8ms1RI/kUgk=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/util/SQLAccess
+ ControlAdapterFactory.class
+SHA1-Digest: MHVlo+I6jqi3eKXQkSly3CjTrW0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ExactNumericDataTy
+ pe.class
+SHA1-Digest: DH+A42HUJjLfeWsUwF9I9phEMP8=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$1$1.class
+SHA1-Digest: nFI7IJ5JzaesQeTB1qMGQP0tLtQ=
+
+Name: model/sqlmodel.genmodel
+SHA1-Digest: mt2jk6h1oXLpHgQ3cbNMiQMBGGY=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/SQLSchemaFactory.clas
+ s
+SHA1-Digest: 8M3ShCuTVq/HPVkZZEZwwCqm70Y=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/RoutineResultT
+ ableImpl.class
+SHA1-Digest: Ltgzde1/SIJCwvunMtlwETDvzpI=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/util/SQLStatement
+ sAdapterFactory.class
+SHA1-Digest: Cksm/7zLaa1q7o48dPhSv7w+LmE=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/BuiltInFunctio
+ nImpl.class
+SHA1-Digest: zzNokAph73+E7JvzYMuWRNwPhUk=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/RoleImpl.
+ class
+SHA1-Digest: 5GYTrYbfvDK8VpYS1x3GYvkOxeY=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/SQLAccess
+ ControlFactoryImpl.class
+SHA1-Digest: lCAs/Rd8zXlmTb8yfH/0aG9NQ9E=
+
+Name: model/SQLModel-Statements.cat
+SHA1-Digest: zOCMgNvpp6/GWvKodm/Y8v1/uVk=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/BaseTableImpl.cl
+ ass
+SHA1-Digest: in0Po9sCjHqRYfPI1hqTMGPUO6k=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/ReferentialActionType
+ .class
+SHA1-Digest: HBeaTPrb2T7bme2Erj6BWSrc98I=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/FieldImpl.cla
+ ss
+SHA1-Digest: j+KJhiqsikoddplbKhnTUX2NVA4=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/Role.class
+SHA1-Digest: 7l6C7lsblBQPHgQ1JN/aKeAxLb0=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/ParameterMode.class
+SHA1-Digest: 77UAOw3FeFxZcIpUlGFxfZpZn2s=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/PersistentTable.class
+SHA1-Digest: vuS5WVpaajyjAH81ZFY7GUSmyjE=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/DistinctUserD
+ efinedTypeImpl.class
+SHA1-Digest: TFMt70jlM+K15wUZoswePZPAErk=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/impl/QueryExpres
+ sionDefaultImpl.class
+SHA1-Digest: Zu7AD8JjedpRO1KJYEcHmZ9v/Uo=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/RowDataTypeIm
+ pl.class
+SHA1-Digest: dx6bZa/NEvCffwHw/iTbLjUIt5E=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Method.class
+SHA1-Digest: Y4QoPO0pSrXNfuIftjw8wIIZs+0=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLControlStateme
+ nt.class
+SHA1-Digest: /GZ2UPUV1nLNPbkDeOBBAwIaBhc=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/util/SQLSchemaSwitch.
+ class
+SHA1-Digest: GEYFOSD9RU3yppG4Ygzzh1L3ICA=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/UniqueConst
+ raintImpl.class
+SHA1-Digest: PyYkqhAO2jlDwOtigEJdDMvcJMc=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/UserDefinedFunction
+ .class
+SHA1-Digest: GgdZyXDQez69FbXiwZ0b373qW4w=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/SQLSchemaPackage
+ Impl.class
+SHA1-Digest: QxlSeQA60YDpDDRotkpPScaVDUU=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/SQLRoutinesPac
+ kageImpl.class
+SHA1-Digest: EzC6GM4I9VSbo5QHVyBM9qDrnxk=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/TablePrivilege
+ .class
+SHA1-Digest: AXnDI9h4M8g7SsrXM9iFz6R9INI=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/SQLConstraintsFa
+ ctory.class
+SHA1-Digest: WZUuii8fF6Xf8xbcbm1WoaDRFIQ=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/SQLAccessContr
+ olFactory.class
+SHA1-Digest: t71jccC+PzsoKe2e9Dx91lHKtCE=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/TemporaryTableIm
+ pl.class
+SHA1-Digest: FbzD9g4o9ubC0N8ZX7YHdFV4afs=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/CoercibilityType.c
+ lass
+SHA1-Digest: deOygQXqI3D16LNXzBJpdVLu1ds=
+
+Name: model/SQLModel-AccessControl.cat
+SHA1-Digest: ZIhv2vf2QWm6IZVsq79FI8TEtKc=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/CollectionDat
+ aTypeImpl$1InternalEList.class
+SHA1-Digest: 1tGWU9Fnz+v49pSNV+yNIJMp5kI=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/SQLTablesPackage$Lite
+ rals.class
+SHA1-Digest: gTFTwk+0b7eEI367aCOflWe4tiQ=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/DependencyImpl.c
+ lass
+SHA1-Digest: 49vwXyiHVf8Ab7fdhJsm1yxMsJg=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/Privilege.clas
+ s
+SHA1-Digest: JjEYGTTcXsQoedLXIY+7l3xPrgA=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/NumberDataType.cla
+ ss
+SHA1-Digest: v2wpFApw9E3H3MeZbqPj7hyOe8I=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/impl/SQLStatement
+ DefaultImpl.class
+SHA1-Digest: PXZ6YWLGbeP5h4iO38W4nVp+j4c=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/FixedPrecisio
+ nDataTypeImpl.class
+SHA1-Digest: EX2n97zHPq2e/w8aqv27o5Nv0AY=
+
+Name: eclipse32.png
+SHA1-Digest: eCk/A3/COXL3S6qAVDOSrlsqmLw=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Comment.class
+SHA1-Digest: aDSB1wQO3xlAIu5JHmRHQ5SbH9o=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/SearchCondition.
+ class
+SHA1-Digest: Y3xd7cDXcwz52pkHgE0mRHarky8=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Procedure.class
+SHA1-Digest: qu//fW7uhQgsUYNb5eT/Uf7d1vk=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$2$2.class
+SHA1-Digest: KJz5frNhCO1KGyBKgdzHmHO8Gp0=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/PrimaryKey.class
+SHA1-Digest: CZxMV2QcrKerBJj/eC3JyD/sGK0=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/SQLSchemaPackage.clas
+ s
+SHA1-Digest: SZbqcG2Sg/VtWjzmQIU7NaWKRF8=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/BinaryStringD
+ ataTypeImpl.class
+SHA1-Digest: 2xUvgxc85a32vtVIaRS3NPDeaV8=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/ColumnImpl.class
+SHA1-Digest: cL8xm8fn86jWN+FLrame3z4FYrs=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/impl/SQLStatement
+ sFactoryImpl.class
+SHA1-Digest: pvfKcPEBuD9jMaHKoTZo/6zMGTo=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLSchemaStatemen
+ t.class
+SHA1-Digest: iuaqQRnpWGqDqVgWqe+TG2fgqcY=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/SQLAccess
+ ControlPackageImpl.class
+SHA1-Digest: DOeNOF/5bkJ1jmaMCr5GAj09AZA=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/SQLDataTypesPackag
+ e$Literals.class
+SHA1-Digest: a9WsCkcQ0G/ZgzDkQJyHAQ96Wso=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/Domain.class
+SHA1-Digest: KLC3VnjbB0FOiL5qMCqBbC9lm14=
+
+Name: model/SQLModel-Schema.cat
+SHA1-Digest: 25rIzioJOirNTQOyl6E032fII3s=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/IndexMember.clas
+ s
+SHA1-Digest: K8CHtLmy+KvP+mTBMelWY862qjQ=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/ValueExpression.
+ class
+SHA1-Digest: yaxNHvzrLYrz0s5c6vl0VNLL8QA=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/RoutineImpl.cl
+ ass
+SHA1-Digest: 1G3BTzqby4LDvX9sKkkwxTI/qyU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/Field.class
+SHA1-Digest: zTYw6CleTtwvb2e77YNgyJ5HebY=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/IndexExpres
+ sionImpl.class
+SHA1-Digest: HD5/BDVkCufMZUsfCcb03FNFx5Y=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/TableConstr
+ aintImpl.class
+SHA1-Digest: QQLjsydr/rpPBf+iJheGBawEqRc=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/QueryExpressionD
+ efault.class
+SHA1-Digest: ezX6B5y3A6GgxfOo+OpG57ofu0U=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/SQLConstraintsPa
+ ckage.class
+SHA1-Digest: V3lXTDgsI1W+hURsTuG4AyF9m6A=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/SQLAccessContr
+ olPackage.class
+SHA1-Digest: VWPonKB9YEZ4k7No6B3nOvCSq50=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/Privilege
+ Impl.class
+SHA1-Digest: BQ1Qgi5HmaQ8cFfjiO/XCeSJNXE=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/SQLTablesFactory
+ Impl.class
+SHA1-Digest: cHGHtalonxqsJlG7ZdTr8OyaCUQ=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/DatabaseImpl.cla
+ ss
+SHA1-Digest: GOm9kP+8onn9Tm1djaDfNE5DCow=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ApproximateNu
+ mericDataTypeImpl.class
+SHA1-Digest: ldV9D+FtO5rawr2t9najcm/UHM4=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLConnectionStat
+ ement.class
+SHA1-Digest: luMvt20ri1HpkTe68Oul6CwiNHU=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/SearchConditionD
+ efault.class
+SHA1-Digest: HWDYLf6WZDqVKgV2mcbP1cvM0Jo=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/CollectionDat
+ aTypeImpl.class
+SHA1-Digest: qEdg4cQiidVRBPXGixuzLCP05TQ=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$1.class
+SHA1-Digest: QzFjUoNfhtvxqNh1HQ71A7IfVvM=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ElementTypeIm
+ pl.class
+SHA1-Digest: S2LqMhyNR7Hf76r1cwxyWDq1ON8=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Catalog.class
+SHA1-Digest: lJxF/wmNU0PIitcKk71ukk9LtTk=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Event.class
+SHA1-Digest: LnfnvqiNeRfLwZPu0OGuUp7pDfY=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ConstructedDataTyp
+ e.class
+SHA1-Digest: JcyYtEmBGuJIIaiAaDKPqUGk04M=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/ParameterImpl.
+ class
+SHA1-Digest: 9hxouLB9XMJ6y2JEvVVQ36rheT4=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/DerivedTable.class
+SHA1-Digest: 5jeXLQ5T0UWDiGNq35uVndE3J/8=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/NumericalDataType.
+ class
+SHA1-Digest: 4GmIuu40hAL4kudKKxRTVGEhq6Q=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/TimeDataType.class
+SHA1-Digest: xL4pg5DLfzXIv3eW/t3KaSoubCY=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/TypedElement.class
+SHA1-Digest: iPOlgeSCP9Y29AWkjbLRpQXJ1zU=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/IdentitySpecifier.cla
+ ss
+SHA1-Digest: yk9gV6t7oEIxpQnGhc62K4eochA=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/SQLTablesFactory.clas
+ s
+SHA1-Digest: Y2c0MxnpTn8fu8sPhURSn07j4RI=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/IntegerDataTy
+ peImpl.class
+SHA1-Digest: 71f2JFoK1XRlLa04T6OlvD/Ribk=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/CheckType.class
+SHA1-Digest: RAB8Zr/IPXUBXQtPbT6W/fPHoKE=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/impl/SQLStatement
+ sPackageImpl.class
+SHA1-Digest: Xq2tHbTrnXlMkaaCbtdatHKVhrk=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/ReferenceType.class
+SHA1-Digest: DBIbuZXYYfLPTHpRXFiul1RddgQ=
+
+Name: about.html
+SHA1-Digest: WjfpJo/TNn6DEPXtijXEgDsCx7s=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/CheckConstraint.
+ class
+SHA1-Digest: HZpv2zNOdeZFOziM6//fJWVbUPg=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/ReferenceDataType.
+ class
+SHA1-Digest: n0YrW6ztTE6Qn/b2+HyQmzekbF8=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/PersistentTableI
+ mpl.class
+SHA1-Digest: 26BFijt7LRp3WSnfZEBUsTWQKEM=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/SQLDataType.class
+SHA1-Digest: pwmK1Ei+eUywCqPJBdmoAz8wa6o=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/Parameter.class
+SHA1-Digest: O2fZzLp4jgcIalWX8p437yyE+go=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/Index.class
+SHA1-Digest: liT54irtR7deVPgNeHFq9OlkV+Q=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/OrderingCategoryTy
+ pe.class
+SHA1-Digest: pFcTHh5xOvjzR55nd7ruPeiLZk8=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/Trigger.class
+SHA1-Digest: vm1btQSAmy07yYJazLNvkPiAdAI=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/CheckConstr
+ aintImpl.class
+SHA1-Digest: nbQ5ZlL8ndMdoKYOeYhq5unSQvs=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/impl/MethodImpl.cla
+ ss
+SHA1-Digest: e23AKmZ4dqyqNGBD3PWONgOERqo=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/Column.class
+SHA1-Digest: BELwRTi1RV/3OP9s0mX6QslMUEc=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/util/SQLExpressi
+ onsAdapterFactory.class
+SHA1-Digest: eElGJ4B+REVafpWrQmQXmkKV2pM=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLDataStatement.
+ class
+SHA1-Digest: INUuCHxpy3he4htlILsP8vOv97A=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/impl/SQLTablesPackage
+ Impl.class
+SHA1-Digest: JlqO7y8GLvDr49IO7eWtBWe9bCY=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/MatchType.class
+SHA1-Digest: VbLNRckyHIjxrNKofiNX2ZSbVX4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/UserDefinedTy
+ peOrderingImpl.class
+SHA1-Digest: ZodyCoPEAVr93QbX+UL9FZCig2Q=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLStatement.clas
+ s
+SHA1-Digest: 6Em4uiUK4twnS9aUQc5b6KpRM64=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/RoleAuthorizat
+ ion.class
+SHA1-Digest: dN7cKivrPKqPdciPSmo/SlBl+hA=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/DataAccess.class
+SHA1-Digest: 2uHiM++Qn9d4XKVfdBUwj/RUhTw=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/IntegrityControlOp
+ tion.class
+SHA1-Digest: RsdDSAwa3ZrTus2ugZ5sprst3FY=
+
+Name: model/sqlmodel.ecore
+SHA1-Digest: e8mzDd6sd6zb7xV6lAQi2nNeUNQ=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/DataLinkDataType.c
+ lass
+SHA1-Digest: ZuP5VnTHhVhoeYPeoQ1jj/3nmE8=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/util/SQLAccess
+ ControlSwitch.class
+SHA1-Digest: sYQDb3YkK13eQVTGCTuy45/DZP4=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/util/SQLTablesAdapter
+ Factory$1.class
+SHA1-Digest: YPhxNH2DnpCW0UYHpdDlgUkOn+g=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/util/SQLRoutinesAda
+ pterFactory$1.class
+SHA1-Digest: tym8Yau3jNluKR8MV2ZsYD4aTHQ=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/PredefinedDataType
+ .class
+SHA1-Digest: O0aWZnzViOv3NyB/Z4OtnLU1+ZM=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/NumericalData
+ TypeImpl.class
+SHA1-Digest: 4aklJdHR/LuLl//qQNtHVVr/NsM=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/SQLTablesPackage.clas
+ s
+SHA1-Digest: /SqgjT7hHYtTtRNBsr+nNZmOMqI=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/CommentImpl.clas
+ s
+SHA1-Digest: O1/tF8o0F9gpXJUHZXNLSorqwJ4=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/util/SQLStatement
+ sSwitch.class
+SHA1-Digest: GL4sA6CrhQbVBoA4MT7jFu36ej8=
+
+Name: model/SQLModel-DataTypes.cat
+SHA1-Digest: XbSO2uMvgZAZeZwOPuZn0DrhpcM=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/Assertion.class
+SHA1-Digest: EyK3hTUeBHX2p3yyKp+j0ye5Fs0=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/SQLExpressionsFa
+ ctory.class
+SHA1-Digest: cRJF/OK5/DCtuN2QFrtXSciw0w0=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/ReferenceConstra
+ int.class
+SHA1-Digest: G0dJS9Q7Jud7c7eWv5ARce2JHLU=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/IndexExpression.
+ class
+SHA1-Digest: av1E/gmekNY6sTF2dFyw/Kh7KzY=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/util/SQLConstrai
+ ntsAdapterFactory.class
+SHA1-Digest: Pv2YdNkEmcwE8pH+Fjx8BQlDRtg=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/impl/RoleAutho
+ rizationImpl.class
+SHA1-Digest: LO/FDkCRN0w6dIcbZnFXpvN+0MM=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/IntervalDataT
+ ypeImpl.class
+SHA1-Digest: YBpjcBC59CmR8FlaLVrHnwyjytg=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ArrayDataType
+ Impl.class
+SHA1-Digest: y73Rs+Kdwucyk7/fOkRwsQzUV0g=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/CharacterStri
+ ngDataTypeImpl.class
+SHA1-Digest: q3ILLTYhzEZ8/Y6fWX8HtYxPzi0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/CharacterStringDat
+ aType.class
+SHA1-Digest: 8jM7c0oAxBZEVOM3xoF2sNocIkk=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/ReferenceCo
+ nstraintImpl.class
+SHA1-Digest: CY538p+aNpPEcxxxDvaUrrhME6o=
+
+Name: model/SQLModel-Routines.cat
+SHA1-Digest: 4G2zxAYZlfgKwaKuchMbokiUu68=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/TimeDataTypeI
+ mpl.class
+SHA1-Digest: ePeaOtsbqrcYxQdzvtrJiO5Q1Q4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/ExactNumericD
+ ataTypeImpl.class
+SHA1-Digest: jxZ5XSk5xmgc5WSnyXgD0aVjux0=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/util/SQLTablesAdapter
+ Factory.class
+SHA1-Digest: BjK+IXTJ08ek8q+oEcmPwWuw/mw=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/util/SQLRoutinesAda
+ pterFactory.class
+SHA1-Digest: +ciQ38le0lQwCapLTLonS1zNfno=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/BooleanDataTy
+ peImpl.class
+SHA1-Digest: 3Owfcxn+OiY3c1w7oWBr0mkhzA4=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/BooleanDataType.cl
+ ass
+SHA1-Digest: N3TL9MfELlqW0I9Nlp5kUMNWeDc=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/SQLRoutinesFactory.
+ class
+SHA1-Digest: tTgsRJ1tvF1F+t9irNmtFPyiqt8=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/util/SQLExpressi
+ onsAdapterFactory$1.class
+SHA1-Digest: WpIIYbQyuyLO6BXn0RuzVVbpK6o=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/Schema.class
+SHA1-Digest: 3Y16E3RQSBah0rWPiDm+KQywUCU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/AttributeDefinitio
+ n.class
+SHA1-Digest: C3X+rLYItITOY0T8f4TtgXwfofI=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/SQLExpressionsPa
+ ckage$Literals.class
+SHA1-Digest: h2KFJWbnmhnf/hhWKRUyEJt0Gos=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLDiagnosticsSta
+ tement.class
+SHA1-Digest: I81eTdA3IpkQYyzG9fAqKRBwx1E=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/IntervalDataType.c
+ lass
+SHA1-Digest: ViS6HbOkulgEY8QWV+wavRRVYEE=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/SQLConstrai
+ ntsFactoryImpl.class
+SHA1-Digest: 7wKyXKb1ddtF0vwnNCLW2qMNMNg=
+
+Name: org/eclipse/datatools/modelbase/sql/statements/SQLDynamicStateme
+ nt.class
+SHA1-Digest: 4gJrep9gpQMOEnxJhoB2SMbRQ4c=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/ENamedElementImp
+ l$2$1.class
+SHA1-Digest: Pyf/270MYEyTOwt6r5F6M1Rgiro=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/helper/TableHelper.cl
+ ass
+SHA1-Digest: fmB91wc+9nkJS3oHJ583cI7WCFI=
+
+Name: org/eclipse/datatools/modelbase/sql/expressions/SQLExpressionsPa
+ ckage.class
+SHA1-Digest: g12s2eC5tsPGGLBQgwDBODilpoc=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/TemporaryTable.class
+SHA1-Digest: dSVFIYmf+tloXG29qGzmlWzGeCI=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/ActionTimeType.class
+SHA1-Digest: 9wIOy+JiIyDaGzv8OXjXhk3TIwI=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/CharacterSet.class
+SHA1-Digest: c5EIzx+WDWushPkbdaVgNiz84qo=
+
+Name: org/eclipse/datatools/modelbase/sql/accesscontrol/Group.class
+SHA1-Digest: ct8QD9VdJGcITyig3XcdJ5y7cyA=
+
+Name: org/eclipse/datatools/modelbase/sql/tables/ViewTable.class
+SHA1-Digest: qyCDDA64WJiN8UFWAHN19tHO4sI=
+
+Name: org/eclipse/datatools/modelbase/sql/routines/RoutineResultTable.
+ class
+SHA1-Digest: qJZLTON+JqU9raLgHSRj7O/Ygro=
+
+Name: org/eclipse/datatools/modelbase/sql/schema/impl/SchemaImpl.class
+SHA1-Digest: kxqH6ttd2YEo/Kb5r4C8kWWkLqU=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/SQLDataTypeIm
+ pl.class
+SHA1-Digest: 5frwELozX0SmgqXcWbETzMPrIls=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/PrimaryKeyI
+ mpl.class
+SHA1-Digest: YmkITY3NLckh/vBI1IyEtbjQfBs=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/UniqueConstraint
+ .class
+SHA1-Digest: hAFvITukResVuKLdFaHeZjSOdqI=
+
+Name: model/SQLModel-Tables.cat
+SHA1-Digest: I+OUkdZNivfFmIsgovTdi1YSEZE=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/DataLinkDataT
+ ypeImpl.class
+SHA1-Digest: B0uNBpHjAJonZmS2GExdJuq8UGk=
+
+Name: org/eclipse/datatools/modelbase/sql/constraints/impl/AssertionIm
+ pl.class
+SHA1-Digest: +BW7Cl3M9cYx0kHw9sPVJOFEkeQ=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/impl/XMLDataTypeIm
+ pl.class
+SHA1-Digest: B2SU4AU1hRQFBl6SBsFYv3gxk5E=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/XMLDataType.class
+SHA1-Digest: Q5AwduYfFXaR2yom84dNN7EhtQ0=
+
+Name: org/eclipse/datatools/modelbase/sql/datatypes/DistinctUserDefine
+ dType.class
+SHA1-Digest: zP5+zSuvgtXnJmL9JjB1krhw+tw=
+
